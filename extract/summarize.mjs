@@ -72,10 +72,15 @@ function staggers(recs) {
   for (const g of Object.values(groups)) {
     const byEl = new Map();
     for (const r of g) if (!byEl.has(r.id)) byEl.set(r.id, r);
-    const items = [...byEl.values()].sort((a, b) => (a.t + a.delay) - (b.t + b.delay));
-    if (items.length < 3) continue;
+    if (byEl.size < 3) continue;
+    // Different delays on siblings are the authored stagger, so use them exactly. Otherwise
+    // the stagger is in when JS started each one. (animationstart fires after the delay,
+    // so t + delay would count it twice.)
+    const authored = new Set([...byEl.values()].map((r) => r.delay || 0)).size > 1;
+    const start = (r) => (authored ? r.delay || 0 : r.t);
+    const items = [...byEl.values()].sort((a, b) => start(a) - start(b));
     const d = [];
-    for (let i = 1; i < items.length; i++) d.push(Math.round((items[i].t + items[i].delay) - (items[i - 1].t + items[i - 1].delay)));
+    for (let i = 1; i < items.length; i++) d.push(Math.round(start(items[i]) - start(items[i - 1])));
     const md = median(d);
     if (md >= 15 && md <= 400) {
       gaps.push(md);
@@ -186,7 +191,7 @@ function summarizePage(page) {
     url: page.url, finalUrl: page.finalUrl, title: page.title, ok: true, pageHeight: page.pageHeight,
     libs: census.libs,
     declared: {
-      elementsWithTransitions: declared.total,
+      elementsWithTransitions: declared.total, // property entries, not elements: a transition-colors element counts ~10
       durations: top(declared.durations, 8).map(durRow),
       easings: top(declared.easings, 8).map(easingRow),
       properties: top(declared.props, 8),

@@ -860,23 +860,23 @@
     "maxDelayMs": 1800,
     "stagger": {
      "groups": 3,
-     "medianGapMs": 301,
+     "medianGapMs": 150,
      "examples": [
       {
        "items": 10,
-       "gapMs": 301,
+       "gapMs": 150,
        "duration": 700,
        "sel": "li.chapternav-item.chapternav-item-iphone-duo"
       },
       {
        "items": 10,
-       "gapMs": 301,
+       "gapMs": 150,
        "duration": 900,
        "sel": "li.chapternav-item.chapternav-item-iphone-duo"
       },
       {
        "items": 5,
-       "gapMs": 37,
+       "gapMs": 20,
        "duration": 320,
        "sel": "li.globalnav-searchresults-list-item"
       }

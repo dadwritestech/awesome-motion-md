@@ -198,11 +198,11 @@
     "maxDelayMs": 1380,
     "stagger": {
      "groups": 1,
-     "medianGapMs": 120,
+     "medianGapMs": 80,
      "examples": [
       {
        "items": 17,
-       "gapMs": 120,
+       "gapMs": 80,
        "duration": 700,
        "sel": "div._3Yq4tG_extensionCardWrapper"
       }

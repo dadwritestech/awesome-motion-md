@@ -17,7 +17,7 @@ extractor that measured linear.app:
 | Top curve | `ease` (69%) | easeOutQuad (100%) | easeOutQuad (77%) |
 | Transitions on `transform` | 31% | 3% | 12% |
 | Transitions on `box-shadow` | 18% | 0% | 2% |
-| Load stagger | 127ms fade-up | none | 33ms, headline only |
+| Load stagger | 60ms fade-up | none | 33ms headline (plus a 144ms marquee) |
 | motionlint findings | 1 | 0 | n/a |
 
 Full table: [`demo/RESULTS.md`](demo/RESULTS.md). To reproduce it, run `npm run demo`.
@@ -49,22 +49,30 @@ Measured on 2026-10-29 in Chromium 156 at 1440×900, 2 pages per brand.
 | Brand | Durations | Main curve | Hover moves things? | File |
 |---|---|---|---|---|
 | Linear | 100ms 50%, 160ms 38% | easeOutQuad 77% | 3 of 33 probes | [MOTION.md](motion/linear/MOTION.md) |
-| Stripe | 300ms 39%, 150ms 36% | `cubic-bezier(0.25, 1, 0.5, 1)` 36% | 23 of 35 | [MOTION.md](motion/stripe/MOTION.md) |
+| Stripe | 300ms (home), 150ms (/payments) | `cubic-bezier(0.25, 1, 0.5, 1)` on home, easeOutCubic on /payments | 23 of 35, mostly arrow glyphs and layers inside cards | [MOTION.md](motion/stripe/MOTION.md) |
 | Apple | 320ms 39%, 240ms 30% | `ease` 56% | 9 of 32 | [MOTION.md](motion/apple/MOTION.md) |
 | Vercel | 100ms 63%, 150ms 34% | `cubic-bezier(0.4, 0, 0.2, 1)` 98% | 0 of 13 | [MOTION.md](motion/vercel/MOTION.md) |
-| Framer | 200ms 40%, 150ms 25% | `ease` 67%, plus JS springs | 4 CSS + 13 JS of 31 | [MOTION.md](motion/framer/MOTION.md) |
-| The Browser Company (Arc, Dia) | 200ms 82% | `cubic-bezier(0.4, 0, 0.2, 1)` 82% | 3 CSS + 7 JS of 12 | [MOTION.md](motion/arc/MOTION.md) |
-| Raycast | 200ms 41%, 400ms 33%, 300ms 22% | easeOutQuint 63% | 4 of 14 | [MOTION.md](motion/raycast/MOTION.md) |
+| Framer¹ | 400 / 600 / 1000ms, all JS | critically damped spring as `linear()` | 9 of 9, all JS | [MOTION.md](motion/framer/MOTION.md) |
+| The Browser Company² (Arc, Dia) | 200ms 82% | `cubic-bezier(0.4, 0, 0.2, 1)` 82% | 3 CSS + 7 JS of 12 | [MOTION.md](motion/arc/MOTION.md) |
+| Raycast | 200ms, 300ms on the UI | `ease` on the UI³ | 4 of 14 | [MOTION.md](motion/raycast/MOTION.md) |
 | Airbnb | 300 / 200 / 100 / 250ms | `cubic-bezier(0.2, 0, 0, 1)` 93% | 0 of 14 | [MOTION.md](motion/airbnb/MOTION.md) |
+
+¹ framer.com/motion now redirects to motion.dev, so the Framer file uses framer.com only.
+framer.com declares one CSS transition; its motion is JS springs.
+² arc.net is now a farewell letter; most of the measured UI is Dia (diabrowser.com).
+³ 980 of Raycast's 1,352 homepage transitions are easeOutQuint at 400ms on one keyboard
+illustration (none on /pro). The file treats that as illustration, not UI.
 
 What all eight have in common, which is the opposite of default AI motion:
 
 - **None of them smooth-scroll.** On all 16 pages, one wheel tick settled in under a frame.
 - **None apply a bouncy `cubic-bezier`** to a transition. Overshoot is either absent or a
   `linear()` spring.
-- **`transition: all` is rare**, at 0–2% of declared transitions on 13 of 16 pages.
+- **`transition: all` is rare**, at 0–2% of declared transitions (one per property per
+  element) on 13 of 16 pages.
 - **Hover is mostly a colour change.** Linear, Vercel and Airbnb moved an element on
-  3 of 33, 0 of 13 and 0 of 14 hover probes. Stripe is the exception (23 of 35).
+  3 of 33, 0 of 13 and 0 of 14 hover probes. Stripe is the exception (23 of 35), and
+  even there the card itself stays put: only the arrow glyph and inner layers move.
 
 ## Install
 

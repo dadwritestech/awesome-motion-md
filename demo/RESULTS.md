@@ -13,6 +13,6 @@ with the same extractor that measured linear.app.
 | Transitions on `transform` | 31% | 3% | 12% |
 | Transitions on `box-shadow` | 18% | 0% | 2% |
 | Load animates | opacity + transform | opacity | opacity + filter + transform |
-| Load stagger | 127ms | none | 33, 194ms |
+| Load stagger | 60ms | none | 33, 144ms |
 | motionlint findings | 1 | 0 | n/a |
 

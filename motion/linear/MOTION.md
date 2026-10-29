@@ -25,8 +25,8 @@ reduced-motion: crossfade
 
 # Linear motion
 
-Linear's interface barely moves, and that is the point. Measured across 669 elements
-with declared transitions, 88% of durations are 100ms or 160ms and 77% of curves are
+Linear's interface barely moves, and that is the point. Across 669 declared transitions
+(one per property per element), 88% of durations are 100ms or 160ms and 77% of curves are
 one easing, `easeOutQuad`. When you hover something, it changes colour, brightness or
 background, but it does not move: 3 of 33 hover probes changed transform. The one
 place Linear takes its time is the hero headline, which resolves from a blur over a
@@ -152,7 +152,7 @@ full second, one line every 33ms. Everything else feels instant because it nearl
 
 ## Measurements
 
-- Declared transitions on 669 elements across 2 pages.
+- 669 declared transitions (one per property per element) across 2 pages.
 - Durations (declared + hover): 100ms ×368 (50%), 160ms ×276 (38%), 700ms ×30 (4%), 400ms ×25 (3%), 200ms ×17 (2%), 150ms ×8 (1%).
 - Easings (declared + hover): easeOutQuad ×561 (77%); ease ×93 (13%); ease-out ×35 (5%); cubic-bezier(0.32, 0.72, 0, 1) ×30 (4%); easeOutQuart ×7 (1%).
 - Hover: 23 of 33 probes ran CSS motion; 3 moved or scaled; 11 were colour-only. 3 had JS hover motion. Per-probe medians: in 160/100ms, out 160/100ms (homepage / features).

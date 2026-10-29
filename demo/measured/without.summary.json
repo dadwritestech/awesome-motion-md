@@ -136,11 +136,11 @@
     "maxDelayMs": 500,
     "stagger": {
      "groups": 1,
-     "medianGapMs": 127,
+     "medianGapMs": 60,
      "examples": [
       {
        "items": 6,
-       "gapMs": 127,
+       "gapMs": 60,
        "duration": 550,
        "sel": "li.card"
       }

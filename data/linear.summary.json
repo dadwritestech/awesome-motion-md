@@ -914,36 +914,36 @@
     "medianMs": 700,
     "maxDelayMs": 2396,
     "stagger": {
-     "groups": 13,
-     "medianGapMs": 194,
+     "groups": 19,
+     "medianGapMs": 144,
      "examples": [
       {
        "items": 8,
-       "gapMs": 163,
+       "gapMs": 80,
        "duration": 700,
        "sel": "div.ItQDQG_marqueeItem"
       },
       {
        "items": 8,
-       "gapMs": 130,
+       "gapMs": 279,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      },
+      {
+       "items": 8,
+       "gapMs": 232,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      },
+      {
+       "items": 8,
+       "gapMs": 244,
        "duration": 700,
        "sel": "div.ItQDQG_marqueeItem"
       },
       {
        "items": 7,
-       "gapMs": 277,
-       "duration": 700,
-       "sel": "div.ItQDQG_marqueeItem"
-      },
-      {
-       "items": 8,
-       "gapMs": 238,
-       "duration": 700,
-       "sel": "div.ItQDQG_marqueeItem"
-      },
-      {
-       "items": 8,
-       "gapMs": 172,
+       "gapMs": 245,
        "duration": 700,
        "sel": "div.ItQDQG_marqueeItem"
       }

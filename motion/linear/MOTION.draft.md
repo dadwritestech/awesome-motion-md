@@ -27,13 +27,13 @@ TODO thesis.
 
 ## Measurements
 
-- Declared transitions on 669 elements across 2 pages.
+- Declared transitions: 669 entries (one per property per element) across 2 pages.
 - Durations (declared + hover): 100ms ×368 (50%), 160ms ×276 (38%), 700ms ×30 (4%), 400ms ×25 (3%), 200ms ×17 (2%), 150ms ×8 (1%).
 - Easings (declared + hover): easeOutQuad ×561 (77%, out); ease ×93 (13%, in-out); ease-out ×35 (5%, out); cubic-bezier(0.32, 0.72, 0, 1) ×30 (4%, out); easeOutQuart ×7 (1%, out).
 - Hover: 23/33 probes ran CSS motion; 3 moved or scaled; 11 colour-only; 3 had JS (rAF) hover motion, 2 of them changing transform. Median in 160/100ms, out 160/100ms.
 - Load: 44 animations, median 1000ms, max delay 2000ms | 148 animations, median 700ms, max delay 2396ms.
 - Scroll: 452 animations on 5 targets, median 420ms | 28 animations on 2 targets, median 160ms; reveals that move: 440, opacity-only: 8; JS (rAF) reveals: 2; scroll-driven: 0.
-- Stagger gaps: 33, 194ms.
+- Stagger gaps: 33, 144ms.
 - Wheel scroll: native (0ms), native (0ms).
 - `transition: all` share: 0%, 1%. Overshoot easings applied: 0; defined in CSS: 2. linear() springs in CSS: 0.
 - Infinite loops: 82, 16 (grid-dot-#-#-upDown, grid-dot-#-#-pong, grid-dot-#-#-agent, qM#FAa_cursorBlink, sx-#fvhf-B).

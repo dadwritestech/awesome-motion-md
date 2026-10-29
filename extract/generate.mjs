@@ -53,7 +53,7 @@ L.push('  easing:');
 eases.slice(0, 3).forEach(([e], i) => L.push(`    e${i + 1}: ${e}`));
 L.push(`  stagger: ${staggerGaps.length ? Math.min(...staggerGaps) + 'ms' : 'null'}`, '---', '');
 L.push(`# ${s.name} motion`, '', 'TODO thesis.', '', '## Measurements', '');
-L.push(`- Declared transitions on ${sum((p) => p.declared.elementsWithTransitions)} elements across ${pages.length} pages.`);
+L.push(`- Declared transitions: ${sum((p) => p.declared.elementsWithTransitions)} entries (one per property per element) across ${pages.length} pages.`);
 L.push(`- Durations (declared + hover): ${durs.slice(0, 6).map(([ms, n]) => `${ms}ms ×${n} (${pct(n, totalDur)}%)`).join(', ')}.`);
 L.push(`- Easings (declared + hover): ${eases.slice(0, 5).map(([e, n]) => `${nameOf(e) || e} ×${n} (${pct(n, totalEase)}%, ${shapeOf(e)})`).join('; ')}.`);
 L.push(`- Hover: ${hover.moved}/${hover.probed} probes ran CSS motion; ${hover.transform} moved or scaled; ${hover.color} colour-only; ${sum((p) => p.hover.jsHover)} had JS (rAF) hover motion, ${sum((p) => p.hover.jsTransform)} of them changing transform. Median in ${hover.inMs.join('/')}ms, out ${hover.outMs.join('/')}ms.`);
