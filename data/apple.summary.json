@@ -1,0 +1,1374 @@
+{
+ "brand": "apple",
+ "name": "Apple",
+ "measuredAt": "2026-10-29T05:33:25.163Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "https://www.apple.com/",
+   "finalUrl": "https://www.apple.com/",
+   "title": "Apple",
+   "ok": true,
+   "pageHeight": 5955,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 4,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 958,
+    "durations": [
+     {
+      "ms": 320,
+      "n": 303
+     },
+     {
+      "ms": 240,
+      "n": 283
+     },
+     {
+      "ms": 220,
+      "n": 48
+     },
+     {
+      "ms": 180,
+      "n": 46
+     },
+     {
+      "ms": 200,
+      "n": 46
+     },
+     {
+      "ms": 160,
+      "n": 38
+     },
+     {
+      "ms": 20,
+      "n": 30
+     },
+     {
+      "ms": 190,
+      "n": 30
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 532
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 351
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 36
+     },
+     {
+      "easing": "steps",
+      "name": "other",
+      "shape": "other",
+      "n": 14
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 12
+     },
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 10
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.3, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 3
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      330
+     ],
+     [
+      "transform",
+      273
+     ],
+     [
+      "color",
+      243
+     ],
+     [
+      "-webkit-transform",
+      23
+     ],
+     [
+      "background-color",
+      20
+     ],
+     [
+      "width",
+      15
+     ],
+     [
+      "visibility",
+      14
+     ],
+     [
+      "fill",
+      12
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 35,
+    "targets": 8,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 20
+     },
+     {
+      "ms": 320,
+      "n": 6
+     },
+     {
+      "ms": 250,
+      "n": 4
+     },
+     {
+      "ms": 400,
+      "n": 4
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 20
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 6
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 4
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      13
+     ],
+     [
+      "transform",
+      6
+     ],
+     [
+      "width",
+      6
+     ],
+     [
+      "height",
+      4
+     ],
+     [
+      "scale",
+      4
+     ],
+     [
+      "padding-bottom",
+      2
+     ],
+     [
+      "padding-left",
+      2
+     ],
+     [
+      "padding-right",
+      2
+     ]
+    ],
+    "medianMs": 1000,
+    "maxDelayMs": 300,
+    "stagger": {
+     "groups": 1,
+     "medianGapMs": 20,
+     "examples": [
+      {
+       "items": 5,
+       "gapMs": 20,
+       "duration": 320,
+       "sel": "li.globalnav-searchresults-list-item"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 12,
+    "withMotion": 4,
+    "withTransform": 1,
+    "colorOnly": 3,
+    "jsHover": 1,
+    "jsTransform": 0,
+    "medianInMs": 320,
+    "medianOutMs": 240,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "opacity",
+      30
+     ],
+     [
+      "transform",
+      23
+     ],
+     [
+      "color",
+      3
+     ],
+     [
+      "background-color",
+      2
+     ],
+     [
+      "visibility",
+      2
+     ],
+     [
+      "height",
+      1
+     ]
+    ],
+    "in": {
+     "count": 61,
+     "targets": 12,
+     "durations": [
+      {
+       "ms": 320,
+       "n": 51
+      },
+      {
+       "ms": 800,
+       "n": 6
+      },
+      {
+       "ms": 242,
+       "n": 3
+      },
+      {
+       "ms": 100,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 46
+      },
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+       "name": null,
+       "shape": "in-out",
+       "n": 6
+      },
+      {
+       "easing": "steps",
+       "name": "other",
+       "shape": "other",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 1, 1)",
+       "name": "linear",
+       "shape": "linear",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       30
+      ],
+      [
+       "transform",
+       23
+      ],
+      [
+       "color",
+       3
+      ],
+      [
+       "background-color",
+       2
+      ],
+      [
+       "visibility",
+       2
+      ],
+      [
+       "height",
+       1
+      ]
+     ],
+     "medianMs": 320
+    },
+    "out": {
+     "count": 67,
+     "targets": 13,
+     "durations": [
+      {
+       "ms": 240,
+       "n": 36
+      },
+      {
+       "ms": 320,
+       "n": 11
+      },
+      {
+       "ms": 220,
+       "n": 4
+      },
+      {
+       "ms": 160,
+       "n": 3
+      },
+      {
+       "ms": 242,
+       "n": 3
+      },
+      {
+       "ms": 100,
+       "n": 2
+      },
+      {
+       "ms": 180,
+       "n": 2
+      },
+      {
+       "ms": 200,
+       "n": 2
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 46
+      },
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 18
+      },
+      {
+       "easing": "steps",
+       "name": "other",
+       "shape": "other",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 1, 1)",
+       "name": "linear",
+       "shape": "linear",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       36
+      ],
+      [
+       "transform",
+       35
+      ],
+      [
+       "color",
+       3
+      ],
+      [
+       "background-color",
+       2
+      ],
+      [
+       "visibility",
+       2
+      ],
+      [
+       "height",
+       1
+      ]
+     ],
+     "medianMs": 240
+    }
+   },
+   "scroll": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 0
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 2,
+     "medianMs": 499,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 6,
+    "names": [
+     "progress-indicator-animating"
+    ]
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 2,
+    "loadMotionFull": 91,
+    "loadMotionReduced": 436
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 238
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 95
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 78
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.3, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 13
+     },
+     {
+      "easing": "cubic-bezier(0.28, 0.11, 0.32, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 8
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.3, 2)",
+      "name": null,
+      "shape": "overshoot",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0.1, 0.4, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--r-globalnav-flyout-link-opacity-duration": ".5s",
+     "--r-globalnav-duration-medium": ".24s",
+     "--r-globalnav-search-base-duration": "calc(.24s - 80ms)",
+     "--r-globalnav-search-item-base-duration": "calc(.24s - 80ms)",
+     "--sk-dotnav-variable-duration": "320ms",
+     "--sk-dotnav-fade-in-out-duration": "calc(var(--sk-dotnav-variable-duration) / 2 - 20ms)",
+     "--sk-dotnav-hover-animation-duration": "120ms",
+     "--sk-dotnav-animation-stagger-duration": "40ms",
+     "--sk-dotnav-animation-collapse-duration": "380ms",
+     "--sk-dotnav-timed-duration": "3000ms",
+     "--media-gallery-bottom-copy-duration": "600ms",
+     "--media-gallery-slide-duration": "800ms",
+     "--r-localnav-curtain-transition": "opacity 320ms cubic-bezier(0.4, 0, 0.6, 1) 0s, backdrop-filter 320ms cubic-bezier(0.4, 0, 0.6, 1) 0s, -webkit-backdrop-filter 320ms cubic-bezier(0.4, 0, 0.6, 1)",
+     "--r-localnav-menu-link-transition-delay": "0s",
+     "--r-localnav-menu-link-transition-duration": "320ms",
+     "--captions-selector-transition-duration": "240ms",
+     "--captions-selector-transition-easing": "cubic-bezier(0.4, 0, 0.6, 1)"
+    },
+    "keyframes": [
+     "inline-media-spin",
+     "globalnav-chevron-slide-in-hover",
+     "globalnav-chevron-hover-off",
+     "globalnav-flyout-slide-forward-next",
+     "globalnav-flyout-slide-forward-previous",
+     "globalnav-flyout-slide-back-previous",
+     "globalnav-flyout-slide-back-next",
+     "globalnav-scrim-height-change",
+     "globalnav-fade-in",
+     "globalnav-search-fade",
+     "globalnav-search-fade-and-slide",
+     "globalnav-search-fade-and-slide-to-close",
+     "globalnav-search-slide-top-to-bottom",
+     "globalnav-search-slide-bottom-to-top",
+     "globalnav-search-input-intro",
+     "globalnav-search-input-outro",
+     "segment-out",
+     "progress-indicator-animating",
+     "dotnav-shift-start-#",
+     "dotnav-shift-end-#",
+     "dotnav-shift-start-expand",
+     "dotnav-shift-end-expand",
+     "dotnav-become-visible",
+     "dotnav-become-invisible",
+     "dotnav-timed-animation"
+    ],
+    "transitionAll": 5,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  },
+  {
+   "url": "https://www.apple.com/iphone/",
+   "finalUrl": "https://www.apple.com/iphone/",
+   "title": "iPhone - Apple",
+   "ok": true,
+   "pageHeight": 15805,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 973,
+    "durations": [
+     {
+      "ms": 320,
+      "n": 303
+     },
+     {
+      "ms": 240,
+      "n": 269
+     },
+     {
+      "ms": 100,
+      "n": 72
+     },
+     {
+      "ms": 300,
+      "n": 53
+     },
+     {
+      "ms": 200,
+      "n": 52
+     },
+     {
+      "ms": 220,
+      "n": 48
+     },
+     {
+      "ms": 180,
+      "n": 46
+     },
+     {
+      "ms": 160,
+      "n": 38
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 518
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 294
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 69
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 55
+     },
+     {
+      "easing": "steps",
+      "name": "other",
+      "shape": "other",
+      "n": 14
+     },
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 12
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.3, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 3
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      302
+     ],
+     [
+      "transform",
+      278
+     ],
+     [
+      "color",
+      263
+     ],
+     [
+      "background-color",
+      65
+     ],
+     [
+      "fill",
+      23
+     ],
+     [
+      "visibility",
+      14
+     ],
+     [
+      "scale",
+      10
+     ],
+     [
+      "background",
+      9
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 40,
+    "targets": 22,
+    "durations": [
+     {
+      "ms": 700,
+      "n": 10
+     },
+     {
+      "ms": 900,
+      "n": 10
+     },
+     {
+      "ms": 320,
+      "n": 6
+     },
+     {
+      "ms": 100,
+      "n": 4
+     },
+     {
+      "ms": 1000,
+      "n": 3
+     },
+     {
+      "ms": 150,
+      "n": 2
+     },
+     {
+      "ms": 300,
+      "n": 2
+     },
+     {
+      "ms": 400,
+      "n": 2
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 20
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 6
+     },
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      22
+     ],
+     [
+      "transform",
+      18
+     ],
+     [
+      "color",
+      2
+     ],
+     [
+      "width",
+      1
+     ],
+     [
+      "--chapternav-items-mask-start-color",
+      1
+     ],
+     [
+      "--chapternav-items-mask-end-color",
+      1
+     ],
+     [
+      "background-color",
+      1
+     ]
+    ],
+    "medianMs": 700,
+    "maxDelayMs": 1800,
+    "stagger": {
+     "groups": 3,
+     "medianGapMs": 301,
+     "examples": [
+      {
+       "items": 10,
+       "gapMs": 301,
+       "duration": 700,
+       "sel": "li.chapternav-item.chapternav-item-iphone-duo"
+      },
+      {
+       "items": 10,
+       "gapMs": 301,
+       "duration": 900,
+       "sel": "li.chapternav-item.chapternav-item-iphone-duo"
+      },
+      {
+       "items": 5,
+       "gapMs": 37,
+       "duration": 320,
+       "sel": "li.globalnav-searchresults-list-item"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 16,
+     "medianMs": 2393,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 20,
+    "withMotion": 12,
+    "withTransform": 8,
+    "colorOnly": 4,
+    "jsHover": 5,
+    "jsTransform": 4,
+    "medianInMs": 300,
+    "medianOutMs": 300,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "opacity",
+      59
+     ],
+     [
+      "transform",
+      57
+     ],
+     [
+      "color",
+      5
+     ],
+     [
+      "background-color",
+      3
+     ],
+     [
+      "visibility",
+      2
+     ],
+     [
+      "height",
+      1
+     ],
+     [
+      "scale",
+      1
+     ],
+     [
+      "fill",
+      1
+     ]
+    ],
+    "in": {
+     "count": 105,
+     "targets": 25,
+     "durations": [
+      {
+       "ms": 320,
+       "n": 80
+      },
+      {
+       "ms": 100,
+       "n": 7
+      },
+      {
+       "ms": 300,
+       "n": 7
+      },
+      {
+       "ms": 800,
+       "n": 6
+      },
+      {
+       "ms": 242,
+       "n": 3
+      },
+      {
+       "ms": 200,
+       "n": 2
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 75
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.5, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 7
+      },
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+       "name": null,
+       "shape": "in-out",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 1, 1)",
+       "name": "linear",
+       "shape": "linear",
+       "n": 4
+      },
+      {
+       "easing": "cubic-bezier(0.42, 0, 1, 1)",
+       "name": "ease-in",
+       "shape": "in",
+       "n": 3
+      },
+      {
+       "easing": "steps",
+       "name": "other",
+       "shape": "other",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.58, 1)",
+       "name": "ease-out",
+       "shape": "out",
+       "n": 2
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       63
+      ],
+      [
+       "transform",
+       58
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "background-color",
+       3
+      ],
+      [
+       "visibility",
+       2
+      ],
+      [
+       "height",
+       1
+      ],
+      [
+       "scale",
+       1
+      ],
+      [
+       "fill",
+       1
+      ]
+     ],
+     "medianMs": 320
+    },
+    "out": {
+     "count": 81,
+     "targets": 21,
+     "durations": [
+      {
+       "ms": 240,
+       "n": 36
+      },
+      {
+       "ms": 320,
+       "n": 11
+      },
+      {
+       "ms": 300,
+       "n": 9
+      },
+      {
+       "ms": 100,
+       "n": 5
+      },
+      {
+       "ms": 220,
+       "n": 4
+      },
+      {
+       "ms": 160,
+       "n": 3
+      },
+      {
+       "ms": 200,
+       "n": 3
+      },
+      {
+       "ms": 242,
+       "n": 3
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 47
+      },
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 18
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.5, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 9
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 1, 1)",
+       "name": "linear",
+       "shape": "linear",
+       "n": 4
+      },
+      {
+       "easing": "steps",
+       "name": "other",
+       "shape": "other",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.58, 1)",
+       "name": "ease-out",
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "transform",
+       42
+      ],
+      [
+       "opacity",
+       37
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "background-color",
+       3
+      ],
+      [
+       "visibility",
+       2
+      ],
+      [
+       "height",
+       1
+      ],
+      [
+       "scale",
+       1
+      ],
+      [
+       "width",
+       1
+      ]
+     ],
+     "medianMs": 240
+    }
+   },
+   "scroll": {
+    "count": 8,
+    "targets": 4,
+    "durations": [
+     {
+      "ms": 300,
+      "n": 8
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0, 0, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 8
+     }
+    ],
+    "properties": [
+     [
+      "transform",
+      6
+     ],
+     [
+      "color",
+      1
+     ],
+     [
+      "scale",
+      1
+     ]
+    ],
+    "medianMs": 300,
+    "reveal": {
+     "withTransform": 6,
+     "opacityOnly": 0
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 6,
+    "names": [
+     "progress-indicator-animating"
+    ]
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 37,
+    "loadMotionFull": 2169,
+    "loadMotionReduced": 80
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 194
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 95
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 78
+     },
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 27
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.3, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 13
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.3, 2)",
+      "name": null,
+      "shape": "overshoot",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0.1, 0.4, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--airpods-pro-reduced-motion-video-button-small-margin": "95px",
+     "--card-transition-background": "background-color 0.344s ease",
+     "--card-transition-transform": "transform 0.3s cubic-bezier(0,0,0.5,1)",
+     "--staggered-opacity-duration": "0.9",
+     "--staggered-translate-y-duration": "0.7",
+     "--accordion-transition-duration": "400ms",
+     "--motion-highest-index-group-with-elevated": "0",
+     "--motion-group-index": "0",
+     "--motion-link-index": "0",
+     "--motion-total-link-index": "0",
+     "--motion-duration-long": "320ms",
+     "--motion-delay-medium": "80ms",
+     "--motion-delay-short": "40ms",
+     "--motion-delay-rapid": "20ms",
+     "--sk-dotnav-variable-duration": "320ms",
+     "--sk-dotnav-fade-in-out-duration": "calc(var(--sk-dotnav-variable-duration)/2 - 20ms)",
+     "--sk-dotnav-hover-animation-duration": "120ms",
+     "--sk-dotnav-animation-stagger-duration": "40ms",
+     "--sk-dotnav-animation-collapse-duration": "380ms",
+     "--sk-dotnav-timed-duration": "3000ms",
+     "--animation-duration": "4s",
+     "--animation-timing-function": "linear",
+     "--aap-background-transition-duration": "250ms",
+     "--dotnav-opacity-duration": "100ms",
+     "--playpause-opacity-duration": "100ms",
+     "--playpause-scale-duration": "200ms",
+     "--shared-media-gallery-transition-duration": "1s",
+     "--autoplay-persist-duration": "6.15s",
+     "--animation-reset-duration": "0.2s",
+     "--frame-transition-duration": "200ms",
+     "--caption-offset-duration": "calc(var(--autoplay-transition-duration)*0.6)",
+     "--transition-offset": "calc(var(--autoplay-progress) - var(--progress))",
+     "--ease": "calc(var(--transition-offset)*var(--transition-ease-factor))",
+     "--caption-opacity-ease": "calc(1 - pow(var(--wave-offset), var(--transition-ease-factor)))",
+     "--transition-ease-factor": "3",
+     "--transition-multiplier-caption": "-0.45",
+     "--transition-multiplier-media": "0.45",
+     "--chapternav-paddle-hover-duration": "300ms",
+     "--chapternav-paddle-hover-timing-function": "cubic-bezier(0,0,0.5,1)",
+     "--chapternav-paddle-fade-duration": "150ms"
+    },
+    "keyframes": [
+     "ribbon-drop",
+     "animate-color-fff-#d#d#f",
+     "animate-color-fff-#c",
+     "animate-background-#e#-f#f#f#",
+     "animate-color-fff-fff",
+     "animate-color-fff-#ff",
+     "animate-background-#e#-#d#d#f",
+     "animate-color-#ff-#ff",
+     "animate-background-#d#d#f-#d#d#f",
+     "animate-color-#d#d#f-#d#d#f",
+     "animate-color-#c-#c",
+     "animate-background-f#f#f#-f#f#f#",
+     "animate-background-fff-fff",
+     "animate-background-#e#-#e#",
+     "animate-background-#e#-fff",
+     "inline-media-swap-spin",
+     "inline-media-spin",
+     "link-in",
+     "dotnav-shift-start-#",
+     "dotnav-shift-end-#",
+     "dotnav-shift-start-expand",
+     "dotnav-shift-end-expand",
+     "dotnav-become-visible",
+     "dotnav-become-invisible",
+     "dotnav-timed-animation"
+    ],
+    "transitionAll": 5,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,336 @@
+{
+ "brand": "without",
+ "name": "Demo without MOTION.md",
+ "measuredAt": "2026-10-29T05:42:15.958Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "file:///D:/awesome-motion-md/demo/without/index.html",
+   "finalUrl": "file:///D:/awesome-motion-md/demo/without/index.html",
+   "title": "Orbit",
+   "ok": true,
+   "pageHeight": 900,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 55,
+    "durations": [
+     {
+      "ms": 180,
+      "n": 17
+     },
+     {
+      "ms": 220,
+      "n": 14
+     },
+     {
+      "ms": 200,
+      "n": 12
+     },
+     {
+      "ms": 250,
+      "n": 7
+     },
+     {
+      "ms": 150,
+      "n": 3
+     },
+     {
+      "ms": 300,
+      "n": 1
+     },
+     {
+      "ms": 350,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 38
+     },
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 17
+     }
+    ],
+    "properties": [
+     [
+      "transform",
+      17
+     ],
+     [
+      "background",
+      12
+     ],
+     [
+      "border-color",
+      10
+     ],
+     [
+      "box-shadow",
+      10
+     ],
+     [
+      "color",
+      3
+     ],
+     [
+      "opacity",
+      3
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 9,
+    "targets": 4,
+    "durations": [
+     {
+      "ms": 550,
+      "n": 6
+     },
+     {
+      "ms": 600,
+      "n": 3
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 9
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      9
+     ],
+     [
+      "transform",
+      9
+     ]
+    ],
+    "medianMs": 550,
+    "maxDelayMs": 500,
+    "stagger": {
+     "groups": 1,
+     "medianGapMs": 127,
+     "examples": [
+      {
+       "items": 6,
+       "gapMs": 127,
+       "duration": 550,
+       "sel": "li.card"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 3,
+    "withMotion": 3,
+    "withTransform": 0,
+    "colorOnly": 3,
+    "jsHover": 0,
+    "jsTransform": 0,
+    "medianInMs": 180,
+    "medianOutMs": 180,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "background-color",
+      3
+     ],
+     [
+      "color",
+      1
+     ],
+     [
+      "box-shadow",
+      1
+     ]
+    ],
+    "in": {
+     "count": 5,
+     "targets": 3,
+     "durations": [
+      {
+       "ms": 180,
+       "n": 4
+      },
+      {
+       "ms": 150,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 4
+      },
+      {
+       "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       3
+      ],
+      [
+       "color",
+       1
+      ],
+      [
+       "box-shadow",
+       1
+      ]
+     ],
+     "medianMs": 180
+    },
+    "out": {
+     "count": 5,
+     "targets": 3,
+     "durations": [
+      {
+       "ms": 180,
+       "n": 4
+      },
+      {
+       "ms": 150,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 4
+      },
+      {
+       "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       3
+      ],
+      [
+       "color",
+       1
+      ],
+      [
+       "box-shadow",
+       1
+      ]
+     ],
+     "medianMs": 180
+    }
+   },
+   "scroll": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 0
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "smooth": null,
+    "note": "page did not scroll"
+   },
+   "ambient": {
+    "infiniteAnimations": 0,
+    "names": []
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 1,
+    "loadMotionFull": 9,
+    "loadMotionReduced": 9
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--ease": "cubic-bezier(.22,1,.36,1)"
+    },
+    "keyframes": [
+     "rise",
+     "navIn",
+     "cardNew",
+     "shake"
+    ],
+    "transitionAll": 0,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  }
+ ]
+}

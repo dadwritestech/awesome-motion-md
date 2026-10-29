@@ -1,0 +1,10 @@
+[
+  { "id": "linear", "name": "Linear", "urls": ["https://linear.app/", "https://linear.app/features"] },
+  { "id": "stripe", "name": "Stripe", "urls": ["https://stripe.com/", "https://stripe.com/payments"] },
+  { "id": "apple", "name": "Apple", "urls": ["https://www.apple.com/", "https://www.apple.com/iphone/"] },
+  { "id": "vercel", "name": "Vercel", "urls": ["https://vercel.com/", "https://vercel.com/ai"] },
+  { "id": "framer", "name": "Framer", "urls": ["https://www.framer.com/", "https://www.framer.com/motion/"] },
+  { "id": "arc", "name": "The Browser Company (Arc)", "urls": ["https://arc.net/", "https://www.diabrowser.com/"] },
+  { "id": "raycast", "name": "Raycast", "urls": ["https://www.raycast.com/", "https://www.raycast.com/pro"] },
+  { "id": "airbnb", "name": "Airbnb", "urls": ["https://www.airbnb.com/", "https://www.airbnb.com/s/experiences"] }
+]

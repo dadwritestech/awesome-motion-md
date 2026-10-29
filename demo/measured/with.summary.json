@@ -1,0 +1,266 @@
+{
+ "brand": "with",
+ "name": "Demo with motion/linear/MOTION.md",
+ "measuredAt": "2026-10-29T05:42:33.330Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "file:///D:/awesome-motion-md/demo/with/index.html",
+   "finalUrl": "file:///D:/awesome-motion-md/demo/with/index.html",
+   "title": "Orbit",
+   "ok": true,
+   "pageHeight": 900,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 33,
+    "durations": [
+     {
+      "ms": 160,
+      "n": 20
+     },
+     {
+      "ms": 100,
+      "n": 13
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 33
+     }
+    ],
+    "properties": [
+     [
+      "background-color",
+      12
+     ],
+     [
+      "border-color",
+      7
+     ],
+     [
+      "color",
+      6
+     ],
+     [
+      "filter",
+      6
+     ],
+     [
+      "opacity",
+      1
+     ],
+     [
+      "transform",
+      1
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 6,
+    "targets": 1,
+    "durations": [
+     {
+      "ms": 250,
+      "n": 6
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 6
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      6
+     ]
+    ],
+    "medianMs": 250,
+    "maxDelayMs": 0,
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 3,
+    "withMotion": 3,
+    "withTransform": 0,
+    "colorOnly": 3,
+    "jsHover": 0,
+    "jsTransform": 0,
+    "medianInMs": 100,
+    "medianOutMs": 100,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "background-color",
+      3
+     ],
+     [
+      "color",
+      1
+     ]
+    ],
+    "in": {
+     "count": 4,
+     "targets": 3,
+     "durations": [
+      {
+       "ms": 100,
+       "n": 4
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 4
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       3
+      ],
+      [
+       "color",
+       1
+      ]
+     ],
+     "medianMs": 100
+    },
+    "out": {
+     "count": 4,
+     "targets": 3,
+     "durations": [
+      {
+       "ms": 100,
+       "n": 4
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 4
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       3
+      ],
+      [
+       "color",
+       1
+      ]
+     ],
+     "medianMs": 100
+    }
+   },
+   "scroll": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 0
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "smooth": null,
+    "note": "page did not scroll"
+   },
+   "ambient": {
+    "infiniteAnimations": 0,
+    "names": []
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 1,
+    "loadMotionFull": 6,
+    "loadMotionReduced": 6
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--motion-instant": "100ms",
+     "--motion-quick": "160ms",
+     "--motion-regular": "250ms",
+     "--ease-out": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+    },
+    "keyframes": [
+     "fade-in",
+     "fade-out",
+     "scale-in",
+     "scale-out"
+    ],
+    "transitionAll": 0,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  }
+ ]
+}

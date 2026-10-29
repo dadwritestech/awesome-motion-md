@@ -1,0 +1,1147 @@
+{
+ "brand": "arc",
+ "name": "The Browser Company (Arc)",
+ "measuredAt": "2026-10-29T05:38:28.159Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "https://arc.net/",
+   "finalUrl": "https://arc.net/",
+   "title": "A farewell to Arc",
+   "ok": true,
+   "pageHeight": 6173,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 128,
+    "durations": [
+     {
+      "ms": 700,
+      "n": 38
+     },
+     {
+      "ms": 200,
+      "n": 21
+     },
+     {
+      "ms": 300,
+      "n": 16
+     },
+     {
+      "ms": 150,
+      "n": 15
+     },
+     {
+      "ms": 80,
+      "n": 10
+     },
+     {
+      "ms": 400,
+      "n": 9
+     },
+     {
+      "ms": 220,
+      "n": 5
+     },
+     {
+      "ms": 450,
+      "n": 4
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 97
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 31
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      57
+     ],
+     [
+      "background-color",
+      10
+     ],
+     [
+      "rotate",
+      8
+     ],
+     [
+      "stroke",
+      8
+     ],
+     [
+      "grid-template-rows",
+      8
+     ],
+     [
+      "color",
+      7
+     ],
+     [
+      "translate",
+      7
+     ],
+     [
+      "box-shadow",
+      5
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null,
+    "maxDelayMs": 0,
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 5,
+    "withMotion": 5,
+    "withTransform": 1,
+    "colorOnly": 3,
+    "jsHover": 1,
+    "jsTransform": 0,
+    "medianInMs": 200,
+    "medianOutMs": 150,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "opacity",
+      6
+     ],
+     [
+      "transform",
+      3
+     ],
+     [
+      "background-color",
+      2
+     ],
+     [
+      "color",
+      2
+     ],
+     [
+      "width",
+      2
+     ],
+     [
+      "scale",
+      2
+     ],
+     [
+      "padding-left",
+      2
+     ],
+     [
+      "padding-right",
+      2
+     ]
+    ],
+    "in": {
+     "count": 27,
+     "targets": 11,
+     "durations": [
+      {
+       "ms": 300,
+       "n": 10
+      },
+      {
+       "ms": 220,
+       "n": 8
+      },
+      {
+       "ms": 200,
+       "n": 5
+      },
+      {
+       "ms": 150,
+       "n": 2
+      },
+      {
+       "ms": 120,
+       "n": 1
+      },
+      {
+       "ms": 180,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 17
+      },
+      {
+       "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+       "name": "expoOut (0.16,1,0.3,1)",
+       "shape": "out",
+       "n": 10
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       6
+      ],
+      [
+       "transform",
+       3
+      ],
+      [
+       "background-color",
+       2
+      ],
+      [
+       "color",
+       2
+      ],
+      [
+       "width",
+       2
+      ],
+      [
+       "scale",
+       2
+      ],
+      [
+       "padding-left",
+       2
+      ],
+      [
+       "padding-right",
+       2
+      ]
+     ],
+     "medianMs": 220
+    },
+    "out": {
+     "count": 19,
+     "targets": 15,
+     "durations": [
+      {
+       "ms": 200,
+       "n": 7
+      },
+      {
+       "ms": 150,
+       "n": 2
+      },
+      {
+       "ms": 220,
+       "n": 2
+      },
+      {
+       "ms": 260,
+       "n": 2
+      },
+      {
+       "ms": 360,
+       "n": 2
+      },
+      {
+       "ms": 240,
+       "n": 1
+      },
+      {
+       "ms": 400,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 11
+      },
+      {
+       "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+       "name": "expoOut (0.16,1,0.3,1)",
+       "shape": "out",
+       "n": 8
+      }
+     ],
+     "properties": [
+      [
+       "transform",
+       6
+      ],
+      [
+       "background-color",
+       5
+      ],
+      [
+       "opacity",
+       4
+      ],
+      [
+       "color",
+       2
+      ],
+      [
+       "width",
+       2
+      ],
+      [
+       "text-decoration-color",
+       1
+      ],
+      [
+       "filter",
+       1
+      ]
+     ],
+     "medianMs": 200
+    }
+   },
+   "scroll": {
+    "count": 43,
+    "targets": 4,
+    "durations": [
+     {
+      "ms": 700,
+      "n": 38
+     },
+     {
+      "ms": 150,
+      "n": 2
+     },
+     {
+      "ms": 400,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 42
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      40
+     ],
+     [
+      "stroke",
+      2
+     ],
+     [
+      "transform",
+      1
+     ]
+    ],
+    "medianMs": 700,
+    "reveal": {
+     "withTransform": 1,
+     "opacityOnly": 40
+    },
+    "stagger": {
+     "groups": 1,
+     "medianGapMs": 90,
+     "examples": [
+      {
+       "items": 38,
+       "gapMs": 90,
+       "duration": 700,
+       "sel": "img.hero-signature"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 0,
+    "names": []
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 1,
+    "loadMotionFull": 0,
+    "loadMotionReduced": 141
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--ease": "cubic-bezier(0.16,1,0.3,1)"
+    },
+    "keyframes": [
+     "farewell-swap-next",
+     "farewell-swap-prev",
+     "farewell-tag-swap",
+     "farewell-fade-in",
+     "k-lFWJD",
+     "k-coDfUB"
+    ],
+    "transitionAll": 0,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  },
+  {
+   "url": "https://www.diabrowser.com/",
+   "finalUrl": "https://www.diabrowser.com/",
+   "title": "Dia | The browser for better days at work.",
+   "ok": true,
+   "pageHeight": 6674,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 4,
+    "canvases": 1
+   },
+   "declared": {
+    "elementsWithTransitions": 764,
+    "durations": [
+     {
+      "ms": 200,
+      "n": 723
+     },
+     {
+      "ms": 300,
+      "n": 37
+     },
+     {
+      "ms": 220,
+      "n": 1
+     },
+     {
+      "ms": 250,
+      "n": 1
+     },
+     {
+      "ms": 420,
+      "n": 1
+     },
+     {
+      "ms": 1000,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 758
+     },
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "name": "easeOutCubic",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "name": "easeInOutQuart",
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "background-color",
+      124
+     ],
+     [
+      "text-decoration-color",
+      124
+     ],
+     [
+      "color",
+      123
+     ],
+     [
+      "border-color",
+      123
+     ],
+     [
+      "fill",
+      123
+     ],
+     [
+      "stroke",
+      123
+     ],
+     [
+      "all",
+      9
+     ],
+     [
+      "opacity",
+      8
+     ]
+    ],
+    "transitionAllShare": 1
+   },
+   "load": {
+    "count": 6,
+    "targets": 6,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 2
+     },
+     {
+      "ms": 400,
+      "n": 1
+     },
+     {
+      "ms": 600,
+      "n": 1
+     },
+     {
+      "ms": 1200,
+      "n": 1
+     },
+     {
+      "ms": 1400,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "name": "easeOutExpo",
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "name": "easeInOutQuart",
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.445, 0.05, 0.55, 0.95)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      6
+     ]
+    ],
+    "medianMs": 1000,
+    "maxDelayMs": 0,
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 3,
+     "medianMs": 1396,
+     "medianDistancePx": 11.1843
+    }
+   },
+   "hover": {
+    "probed": 7,
+    "withMotion": 5,
+    "withTransform": 2,
+    "colorOnly": 3,
+    "jsHover": 7,
+    "jsTransform": 7,
+    "medianInMs": 200,
+    "medianOutMs": 200,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "transform",
+      3
+     ],
+     [
+      "opacity",
+      2
+     ],
+     [
+      "box-shadow",
+      1
+     ],
+     [
+      "color",
+      1
+     ]
+    ],
+    "in": {
+     "count": 7,
+     "targets": 6,
+     "durations": [
+      {
+       "ms": 200,
+       "n": 4
+      },
+      {
+       "ms": 220,
+       "n": 1
+      },
+      {
+       "ms": 300,
+       "n": 1
+      },
+      {
+       "ms": 420,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+       "name": "material-standard",
+       "shape": "in-out",
+       "n": 4
+      },
+      {
+       "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+       "name": "easeOutCubic",
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "transform",
+       3
+      ],
+      [
+       "opacity",
+       2
+      ],
+      [
+       "box-shadow",
+       1
+      ],
+      [
+       "color",
+       1
+      ]
+     ],
+     "medianMs": 200
+    },
+    "out": {
+     "count": 46,
+     "targets": 29,
+     "durations": [
+      {
+       "ms": 400,
+       "n": 22
+      },
+      {
+       "ms": 300,
+       "n": 15
+      },
+      {
+       "ms": 200,
+       "n": 4
+      },
+      {
+       "ms": 700,
+       "n": 2
+      },
+      {
+       "ms": 220,
+       "n": 1
+      },
+      {
+       "ms": 350,
+       "n": 1
+      },
+      {
+       "ms": 420,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.77, 0, 0.175, 1)",
+       "name": "easeInOutQuart",
+       "shape": "in-out",
+       "n": 16
+      },
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+       "name": "material-standard",
+       "shape": "in-out",
+       "n": 10
+      },
+      {
+       "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 8
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.35, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+       "name": "easeOutCubic",
+       "shape": "out",
+       "n": 1
+      },
+      {
+       "easing": "cubic-bezier(0.88, 0.01, 0.11, 0.98)",
+       "name": null,
+       "shape": "in-out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       35
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "transform",
+       3
+      ],
+      [
+       "background-color",
+       2
+      ],
+      [
+       "box-shadow",
+       1
+      ]
+     ],
+     "medianMs": 400
+    }
+   },
+   "scroll": {
+    "count": 21,
+    "targets": 8,
+    "durations": [
+     {
+      "ms": 300,
+      "n": 16
+     },
+     {
+      "ms": 200,
+      "n": 1
+     },
+     {
+      "ms": 220,
+      "n": 1
+     },
+     {
+      "ms": 350,
+      "n": 1
+     },
+     {
+      "ms": 420,
+      "n": 1
+     },
+     {
+      "ms": 700,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 12
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "name": "easeOutCubic",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.88, 0.01, 0.11, 0.98)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "color",
+      8
+     ],
+     [
+      "opacity",
+      6
+     ],
+     [
+      "background-color",
+      4
+     ],
+     [
+      "transform",
+      2
+     ],
+     [
+      "box-shadow",
+      1
+     ]
+    ],
+    "medianMs": 300,
+    "reveal": {
+     "withTransform": 2,
+     "opacityOnly": 6
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 3,
+     "medianMs": 350,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 0,
+    "names": []
+   },
+   "waapi": {
+    "count": 46,
+    "targets": 23,
+    "durations": [
+     {
+      "ms": 400,
+      "n": 22
+     },
+     {
+      "ms": 300,
+      "n": 14
+     },
+     {
+      "ms": 350,
+      "n": 3
+     },
+     {
+      "ms": 700,
+      "n": 3
+     },
+     {
+      "ms": 600,
+      "n": 1
+     },
+     {
+      "ms": 1000,
+      "n": 1
+     },
+     {
+      "ms": 1200,
+      "n": 1
+     },
+     {
+      "ms": 1400,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "name": "easeInOutQuart",
+      "shape": "in-out",
+      "n": 17
+     },
+     {
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 9
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 8
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.35, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 6
+     },
+     {
+      "easing": "cubic-bezier(0.88, 0.01, 0.11, 0.98)",
+      "name": null,
+      "shape": "in-out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "name": "easeOutExpo",
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.445, 0.05, 0.55, 0.95)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      46
+     ]
+    ],
+    "medianMs": 400
+   },
+   "reducedMotion": {
+    "cssQueries": 5,
+    "loadMotionFull": 123,
+    "loadMotionReduced": 19
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 16
+     },
+     {
+      "easing": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "name": "easeInOutQuart",
+      "shape": "in-out",
+      "n": 6
+     },
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.5, 1, 0.9, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "name": "easeOutCubic",
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "name": "easeOutQuint",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {},
+    "keyframes": [
+     "spin",
+     "marqueeL",
+     "marqueeR",
+     "marqueeU",
+     "marqueeD",
+     "diaMarqueeL",
+     "diaMarqueeR",
+     "pulse",
+     "pulse-scale",
+     "chroma-sweep",
+     "chroma-expand-bidirectional",
+     "fade-to-black-sweep",
+     "app-tour-caret-blink",
+     "page-enter"
+    ],
+    "transitionAll": 1,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 1
+   }
+  }
+ ]
+}

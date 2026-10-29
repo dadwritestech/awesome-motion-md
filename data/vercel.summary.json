@@ -1,0 +1,1025 @@
+{
+ "brand": "vercel",
+ "name": "Vercel",
+ "measuredAt": "2026-10-29T05:35:06.566Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "https://vercel.com/",
+   "finalUrl": "https://vercel.com/",
+   "title": "Agentic Infrastructure - Vercel",
+   "ok": true,
+   "pageHeight": 5930,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 2
+   },
+   "declared": {
+    "elementsWithTransitions": 1234,
+    "durations": [
+     {
+      "ms": 100,
+      "n": 790
+     },
+     {
+      "ms": 150,
+      "n": 384
+     },
+     {
+      "ms": 500,
+      "n": 31
+     },
+     {
+      "ms": 200,
+      "n": 14
+     },
+     {
+      "ms": 300,
+      "n": 11
+     },
+     {
+      "ms": 250,
+      "n": 1
+     },
+     {
+      "ms": 700,
+      "n": 1
+     },
+     {
+      "ms": 1000,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 1187
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 38
+     },
+     {
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "name": "easeOutQuint",
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.3, 0.57, 0.07, 0.95)",
+      "name": null,
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "color",
+      119
+     ],
+     [
+      "background-color",
+      119
+     ],
+     [
+      "border-color",
+      119
+     ],
+     [
+      "outline-color",
+      119
+     ],
+     [
+      "text-decoration-color",
+      119
+     ],
+     [
+      "fill",
+      119
+     ],
+     [
+      "stroke",
+      119
+     ],
+     [
+      "--tw-gradient-from",
+      119
+     ]
+    ],
+    "transitionAllShare": 1
+   },
+   "load": {
+    "count": 2,
+    "targets": 2,
+    "durations": [
+     {
+      "ms": 700,
+      "n": 1
+     },
+     {
+      "ms": 1200,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 2
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      2
+     ]
+    ],
+    "medianMs": 700,
+    "maxDelayMs": 0,
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 6,
+    "withMotion": 3,
+    "withTransform": 0,
+    "colorOnly": 2,
+    "jsHover": 0,
+    "jsTransform": 0,
+    "medianInMs": 150,
+    "medianOutMs": 150,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "background-color",
+      5
+     ],
+     [
+      "box-shadow",
+      3
+     ],
+     [
+      "opacity",
+      1
+     ],
+     [
+      "pointer-events",
+      1
+     ]
+    ],
+    "in": {
+     "count": 9,
+     "targets": 4,
+     "durations": [
+      {
+       "ms": 200,
+       "n": 6
+      },
+      {
+       "ms": 150,
+       "n": 2
+      },
+      {
+       "ms": 100,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+       "name": "material-standard",
+       "shape": "in-out",
+       "n": 8
+      },
+      {
+       "easing": "cubic-bezier(0.42, 0, 1, 1)",
+       "name": "ease-in",
+       "shape": "in",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       5
+      ],
+      [
+       "box-shadow",
+       3
+      ],
+      [
+       "opacity",
+       1
+      ],
+      [
+       "pointer-events",
+       1
+      ]
+     ],
+     "medianMs": 200
+    },
+    "out": {
+     "count": 9,
+     "targets": 4,
+     "durations": [
+      {
+       "ms": 200,
+       "n": 7
+      },
+      {
+       "ms": 150,
+       "n": 2
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+       "name": "material-standard",
+       "shape": "in-out",
+       "n": 8
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.58, 1)",
+       "name": "ease-out",
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       5
+      ],
+      [
+       "box-shadow",
+       3
+      ],
+      [
+       "opacity",
+       1
+      ]
+     ],
+     "medianMs": 200
+    }
+   },
+   "scroll": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 0
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 0,
+    "names": []
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 31,
+    "loadMotionFull": 5,
+    "loadMotionReduced": 2
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 11
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "name": "easeInOutQuad",
+      "shape": "in-out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0.04, 0.04, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.57, 0.45, 0.94)",
+      "name": null,
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.33, 0.01, 0.63, 1.01)",
+      "name": null,
+      "shape": "in-out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.6, 0.3, 0.98, 0.5)",
+      "name": null,
+      "shape": "in",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.1, 0, 0.1, 1.1)",
+      "name": null,
+      "shape": "overshoot",
+      "n": 2
+     }
+    ],
+    "linearEasings": 3,
+    "tokenVars": {
+     "--tw-duration": ".2s",
+     "--tw-ease": "var(--ease-out)",
+     "--tw-animation-duration": "initial",
+     "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+     "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+     "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+     "--default-transition-duration": ".15s",
+     "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+     "--duration": ".56104s",
+     "--timing": "linear(0 0%, .00484 1%, .018323 2%, .039014 3%, .065627 4%, .097013 5%, .132156 6%, .170155 7.0%, .210219 8%, .251659 9%, .293875 10%, .336353 11%, .378653 12%,",
+     "--hero-duration": ".35s",
+     "--hero-easing": "cubic-bezier(.455,.03,.515,.955)",
+     "--marquee-speed": "80s",
+     "--peel-crease": "var(--ds-gray-100)",
+     "--transition-length": "1s",
+     "--transition-step": ".2s",
+     "--ds-motion-timing-swift": "cubic-bezier(.175, .885, .32, 1.1)",
+     "--ds-motion-overlay-scale": ".96",
+     "--ds-motion-overlay-timing": "var(--ds-motion-timing-swift)",
+     "--ds-motion-overlay-duration": ".3s",
+     "--ds-motion-popover-timing": "var(--ds-motion-timing-swift)",
+     "--ds-motion-popover-duration": ".2s",
+     "--step-highlight-transition": "background var(--duration) var(--easing), border-color var(--duration) var(--easing)",
+     "--step-transition": "background .15s ease-out, color .15s ease-out, border-color .15s ease-out"
+    },
+    "keyframes": [
+     "modal-appear",
+     "soft-fade-in",
+     "show",
+     "hide",
+     "fade-in",
+     "fade-out",
+     "spinner-opacity",
+     "slide-in",
+     "fade-slide-in",
+     "blue-glow",
+     "thinking-loader",
+     "bar-pulse",
+     "logo-carousel",
+     "sandbox-left",
+     "sandbox-right",
+     "sandbox-left-reverse",
+     "sandbox-right-reverse",
+     "blink",
+     "flip-front",
+     "flip-back",
+     "accordion-down",
+     "accordion-up",
+     "marquee",
+     "fadein-inplace",
+     "slideUpFadeIn"
+    ],
+    "transitionAll": 7,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  },
+  {
+   "url": "https://vercel.com/ai",
+   "finalUrl": "https://vercel.com/ai",
+   "title": "AI apps and agents - Vercel",
+   "ok": true,
+   "pageHeight": 7350,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 1257,
+    "durations": [
+     {
+      "ms": 100,
+      "n": 790
+     },
+     {
+      "ms": 150,
+      "n": 451
+     },
+     {
+      "ms": 300,
+      "n": 7
+     },
+     {
+      "ms": 200,
+      "n": 6
+     },
+     {
+      "ms": 250,
+      "n": 1
+     },
+     {
+      "ms": 400,
+      "n": 1
+     },
+     {
+      "ms": 1000,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 1249
+     },
+     {
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "name": "easeOutQuint",
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.3, 0.57, 0.07, 0.95)",
+      "name": null,
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "color",
+      120
+     ],
+     [
+      "background-color",
+      120
+     ],
+     [
+      "border-color",
+      119
+     ],
+     [
+      "outline-color",
+      119
+     ],
+     [
+      "text-decoration-color",
+      119
+     ],
+     [
+      "fill",
+      119
+     ],
+     [
+      "stroke",
+      119
+     ],
+     [
+      "--tw-gradient-from",
+      119
+     ]
+    ],
+    "transitionAllShare": 2
+   },
+   "load": {
+    "count": 2,
+    "targets": 2,
+    "durations": [
+     {
+      "ms": 150,
+      "n": 1
+     },
+     {
+      "ms": 200,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      1
+     ],
+     [
+      "color",
+      1
+     ]
+    ],
+    "medianMs": 150,
+    "maxDelayMs": 0,
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 7,
+    "withMotion": 4,
+    "withTransform": 0,
+    "colorOnly": 2,
+    "jsHover": 0,
+    "jsTransform": 0,
+    "medianInMs": 150,
+    "medianOutMs": 150,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "background-color",
+      3
+     ],
+     [
+      "opacity",
+      2
+     ],
+     [
+      "color",
+      1
+     ],
+     [
+      "clip-path",
+      1
+     ],
+     [
+      "pointer-events",
+      1
+     ]
+    ],
+    "in": {
+     "count": 7,
+     "targets": 4,
+     "durations": [
+      {
+       "ms": 150,
+       "n": 6
+      },
+      {
+       "ms": 100,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+       "name": "material-standard",
+       "shape": "in-out",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(0.42, 0, 1, 1)",
+       "name": "ease-in",
+       "shape": "in",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       3
+      ],
+      [
+       "opacity",
+       2
+      ],
+      [
+       "color",
+       1
+      ],
+      [
+       "clip-path",
+       1
+      ],
+      [
+       "pointer-events",
+       1
+      ]
+     ],
+     "medianMs": 150
+    },
+    "out": {
+     "count": 6,
+     "targets": 3,
+     "durations": [
+      {
+       "ms": 150,
+       "n": 6
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+       "name": "material-standard",
+       "shape": "in-out",
+       "n": 6
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       3
+      ],
+      [
+       "color",
+       1
+      ],
+      [
+       "opacity",
+       1
+      ],
+      [
+       "clip-path",
+       1
+      ]
+     ],
+     "medianMs": 150
+    }
+   },
+   "scroll": {
+    "count": 118,
+    "targets": 5,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 80
+     },
+     {
+      "ms": 300,
+      "n": 12
+     },
+     {
+      "ms": 200,
+      "n": 10
+     },
+     {
+      "ms": 1500,
+      "n": 10
+     },
+     {
+      "ms": 150,
+      "n": 6
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 90
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 18
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 10
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      98
+     ],
+     [
+      "background-position",
+      10
+     ],
+     [
+      "scale",
+      6
+     ],
+     [
+      "background-color",
+      2
+     ],
+     [
+      "clip-path",
+      2
+     ]
+    ],
+    "medianMs": 1000,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 98
+    },
+    "stagger": {
+     "groups": 11,
+     "medianGapMs": 125,
+     "examples": [
+      {
+       "items": 8,
+       "gapMs": 125,
+       "duration": 1000,
+       "sel": "div.absolute.top-1/2"
+      },
+      {
+       "items": 8,
+       "gapMs": 125,
+       "duration": 1000,
+       "sel": "div.absolute.top-1/2"
+      },
+      {
+       "items": 6,
+       "gapMs": 300,
+       "duration": 200,
+       "sel": "div.animate-command-fade-in.motion-reduce:animate-none"
+      },
+      {
+       "items": 8,
+       "gapMs": 125,
+       "duration": 1000,
+       "sel": "div.absolute.top-1/2"
+      },
+      {
+       "items": 8,
+       "gapMs": 125,
+       "duration": 1000,
+       "sel": "div.absolute.top-1/2"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 90,
+    "names": [
+     "spinner-opacity",
+     "thinking-loader"
+    ]
+   },
+   "waapi": {
+    "count": 0,
+    "targets": 0,
+    "durations": [],
+    "easings": [],
+    "properties": [],
+    "medianMs": null
+   },
+   "reducedMotion": {
+    "cssQueries": 31,
+    "loadMotionFull": 5,
+    "loadMotionReduced": 16
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 11
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "name": "material-decelerate",
+      "shape": "out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "name": "easeInOutQuad",
+      "shape": "in-out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0.04, 0.04, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 5
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.57, 0.45, 0.94)",
+      "name": null,
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0.33, 0.01, 0.63, 1.01)",
+      "name": null,
+      "shape": "in-out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "name": "easeInOutCubic",
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.6, 0.3, 0.98, 0.5)",
+      "name": null,
+      "shape": "in",
+      "n": 2
+     }
+    ],
+    "linearEasings": 3,
+    "tokenVars": {
+     "--tw-duration": ".2s",
+     "--tw-ease": "var(--ease-out)",
+     "--tw-animation-duration": "initial",
+     "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+     "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+     "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+     "--default-transition-duration": ".15s",
+     "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+     "--duration": ".56104s",
+     "--timing": "linear(0 0%, .00484 1%, .018323 2%, .039014 3%, .065627 4%, .097013 5%, .132156 6%, .170155 7.0%, .210219 8%, .251659 9%, .293875 10%, .336353 11%, .378653 12%,",
+     "--hero-duration": ".35s",
+     "--hero-easing": "cubic-bezier(.455,.03,.515,.955)",
+     "--marquee-speed": "80s",
+     "--peel-crease": "var(--ds-gray-100)",
+     "--transition-length": "1s",
+     "--transition-step": ".2s",
+     "--ds-motion-timing-swift": "cubic-bezier(.175, .885, .32, 1.1)",
+     "--ds-motion-overlay-scale": ".96",
+     "--ds-motion-overlay-timing": "var(--ds-motion-timing-swift)",
+     "--ds-motion-overlay-duration": ".3s",
+     "--ds-motion-popover-timing": "var(--ds-motion-timing-swift)",
+     "--ds-motion-popover-duration": ".2s",
+     "--step-highlight-transition": "background var(--duration) var(--easing), border-color var(--duration) var(--easing)",
+     "--step-transition": "background .15s ease-out, color .15s ease-out, border-color .15s ease-out"
+    },
+    "keyframes": [
+     "AMTIxG_xsDisappear",
+     "AMTIxG_smDisappear",
+     "AMTIxG_mdDisappear",
+     "AMTIxG_lgDisappear",
+     "zm#lG_fadeIn",
+     "pFnISG_mount-li",
+     "pFnISG_scroll",
+     "disV#a_fadeIn",
+     "eaE#iq_reveal",
+     "eaE#iq_fluctuate",
+     "knmcua_drawPath",
+     "HXoBNa_invisibleReveal",
+     "HXoBNa_letterReveal",
+     "EwR#lq_dynamic",
+     "EwR#lq_twinkle",
+     "EwR#lq_fade-in",
+     "v#_SFa_move",
+     "FAaERa_glimmer",
+     "CbG#Bq_denyAnim",
+     "CbG#Bq_shakeAnim",
+     "CbG#Bq_approveAnim",
+     "CbG#Bq_ascendAnim",
+     "CbG#Bq_gate",
+     "CbG#Bq_gateLong",
+     "AEUiAq_float"
+    ],
+    "transitionAll": 7,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  }
+ ]
+}

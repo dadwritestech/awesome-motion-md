@@ -1,0 +1,1408 @@
+{
+ "brand": "linear",
+ "name": "Linear",
+ "measuredAt": "2026-10-29T05:29:11.020Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "https://linear.app/",
+   "finalUrl": "https://linear.app/",
+   "title": "Linear – The system for product development",
+   "ok": true,
+   "pageHeight": 9960,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 497,
+    "durations": [
+     {
+      "ms": 100,
+      "n": 292
+     },
+     {
+      "ms": 160,
+      "n": 135
+     },
+     {
+      "ms": 700,
+      "n": 30
+     },
+     {
+      "ms": 400,
+      "n": 25
+     },
+     {
+      "ms": 150,
+      "n": 8
+     },
+     {
+      "ms": 200,
+      "n": 7
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 386
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 50
+     },
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 30
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 25
+     },
+     {
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "name": "easeOutQuart",
+      "shape": "out",
+      "n": 6
+     }
+    ],
+    "properties": [
+     [
+      "color",
+      293
+     ],
+     [
+      "transform",
+      59
+     ],
+     [
+      "filter",
+      47
+     ],
+     [
+      "background",
+      41
+     ],
+     [
+      "background-color",
+      15
+     ],
+     [
+      "stroke",
+      10
+     ],
+     [
+      "border-left-color",
+      8
+     ],
+     [
+      "border",
+      7
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 44,
+    "targets": 15,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 27
+     },
+     {
+      "ms": 1500,
+      "n": 6
+     },
+     {
+      "ms": 2000,
+      "n": 3
+     },
+     {
+      "ms": 350,
+      "n": 2
+     },
+     {
+      "ms": 500,
+      "n": 2
+     },
+     {
+      "ms": 1300,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 30
+     },
+     {
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "name": "easeInOutQuad",
+      "shape": "in-out",
+      "n": 6
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 3
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 2
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      20
+     ],
+     [
+      "filter",
+      9
+     ],
+     [
+      "transform",
+      9
+     ],
+     [
+      "background-position",
+      6
+     ]
+    ],
+    "medianMs": 1000,
+    "maxDelayMs": 2000,
+    "stagger": {
+     "groups": 3,
+     "medianGapMs": 33,
+     "examples": [
+      {
+       "items": 6,
+       "gapMs": 33,
+       "duration": 1000,
+       "sel": "span.show-mobile.QI8oKG_titleLine"
+      },
+      {
+       "items": 6,
+       "gapMs": 33,
+       "duration": 1000,
+       "sel": "span.show-mobile.QI8oKG_titleLine"
+      },
+      {
+       "items": 6,
+       "gapMs": 33,
+       "duration": 1000,
+       "sel": "span.show-mobile.QI8oKG_titleLine"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 23,
+    "withMotion": 15,
+    "withTransform": 2,
+    "colorOnly": 6,
+    "jsHover": 2,
+    "jsTransform": 2,
+    "medianInMs": 160,
+    "medianOutMs": 160,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "filter",
+      12
+     ],
+     [
+      "background-color",
+      7
+     ],
+     [
+      "color",
+      5
+     ],
+     [
+      "opacity",
+      4
+     ],
+     [
+      "background-position-x",
+      4
+     ],
+     [
+      "background-position-y",
+      4
+     ],
+     [
+      "transform",
+      2
+     ]
+    ],
+    "in": {
+     "count": 37,
+     "targets": 20,
+     "durations": [
+      {
+       "ms": 160,
+       "n": 19
+      },
+      {
+       "ms": 100,
+       "n": 10
+      },
+      {
+       "ms": 300,
+       "n": 6
+      },
+      {
+       "ms": 180,
+       "n": 1
+      },
+      {
+       "ms": 2400,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 27
+      },
+      {
+       "easing": "linear(…30 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 1, 1)",
+       "name": "linear",
+       "shape": "linear",
+       "n": 1
+      },
+      {
+       "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+       "name": "easeOutQuart",
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "filter",
+       12
+      ],
+      [
+       "background-color",
+       7
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "background-position-x",
+       4
+      ],
+      [
+       "background-position-y",
+       4
+      ],
+      [
+       "opacity",
+       4
+      ],
+      [
+       "transform",
+       2
+      ]
+     ],
+     "medianMs": 160
+    },
+    "out": {
+     "count": 33,
+     "targets": 18,
+     "durations": [
+      {
+       "ms": 160,
+       "n": 19
+      },
+      {
+       "ms": 100,
+       "n": 9
+      },
+      {
+       "ms": 300,
+       "n": 2
+      },
+      {
+       "ms": 180,
+       "n": 1
+      },
+      {
+       "ms": 200,
+       "n": 1
+      },
+      {
+       "ms": 800,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 27
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 2
+      },
+      {
+       "easing": "linear(…30 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+       "name": "easeOutQuart",
+       "shape": "out",
+       "n": 1
+      },
+      {
+       "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "filter",
+       10
+      ],
+      [
+       "background-color",
+       7
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "background-position-x",
+       4
+      ],
+      [
+       "background-position-y",
+       4
+      ],
+      [
+       "opacity",
+       3
+      ],
+      [
+       "transform",
+       1
+      ]
+     ],
+     "medianMs": 160
+    }
+   },
+   "scroll": {
+    "count": 452,
+    "targets": 5,
+    "durations": [
+     {
+      "ms": 420,
+      "n": 438
+     },
+     {
+      "ms": 300,
+      "n": 10
+     },
+     {
+      "ms": 160,
+      "n": 2
+     },
+     {
+      "ms": 2400,
+      "n": 2
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 440
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 6
+     },
+     {
+      "easing": "linear(…30 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 2
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      446
+     ],
+     [
+      "transform",
+      440
+     ],
+     [
+      "filter",
+      4
+     ]
+    ],
+    "medianMs": 420,
+    "reveal": {
+     "withTransform": 440,
+     "opacityOnly": 8
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 2,
+     "medianMs": 298,
+     "medianDistancePx": 7.36951
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 82,
+    "names": [
+     "grid-dot-#-#-upDown",
+     "grid-dot-#-#-pong",
+     "grid-dot-#-#-agent",
+     "qM#FAa_cursorBlink",
+     "sx-#fvhf-B"
+    ]
+   },
+   "waapi": {
+    "count": 61,
+    "targets": 18,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 27
+     },
+     {
+      "ms": 300,
+      "n": 20
+     },
+     {
+      "ms": 1500,
+      "n": 6
+     },
+     {
+      "ms": 350,
+      "n": 2
+     },
+     {
+      "ms": 500,
+      "n": 2
+     },
+     {
+      "ms": 200,
+      "n": 1
+     },
+     {
+      "ms": 800,
+      "n": 1
+     },
+     {
+      "ms": 1300,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 27
+     },
+     {
+      "easing": "linear(…30 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 14
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 9
+     },
+     {
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "name": "easeInOutQuad",
+      "shape": "in-out",
+      "n": 7
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "linear(…2 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      36
+     ],
+     [
+      "filter",
+      16
+     ],
+     [
+      "transform",
+      9
+     ]
+    ],
+    "medianMs": 1000
+   },
+   "reducedMotion": {
+    "cssQueries": 91,
+    "loadMotionFull": 323,
+    "loadMotionReduced": 245
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 9
+     },
+     {
+      "easing": "cubic-bezier(0.43, 0.07, 0.59, 0.94)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.45, 1.45, 0.8, 1)",
+      "name": null,
+      "shape": "overshoot",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.66, 0, 0, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.55, 0.085, 0.68, 0.53)",
+      "name": "easeInQuad",
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.55, 0.055, 0.675, 0.19)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.895, 0.03, 0.685, 0.22)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.95, 0.05, 0.795, 0.035)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--speed-highlightFadeIn": "0s",
+     "--speed-highlightFadeOut": ".15s",
+     "--speed-quickTransition": ".1s",
+     "--speed-regularTransition": ".25s",
+     "--mask-ease": "#0003",
+     "--ease-in-quad": "cubic-bezier(.55, .085, .68, .53)",
+     "--ease-in-cubic": "cubic-bezier(.55, .055, .675, .19)",
+     "--ease-in-quart": "cubic-bezier(.895, .03, .685, .22)",
+     "--ease-in-quint": "cubic-bezier(.755, .05, .855, .06)",
+     "--ease-in-expo": "cubic-bezier(.95, .05, .795, .035)",
+     "--ease-in-circ": "cubic-bezier(.6, .04, .98, .335)",
+     "--ease-out-quad": "cubic-bezier(.25, .46, .45, .94)",
+     "--ease-out-cubic": "cubic-bezier(.215, .61, .355, 1)",
+     "--ease-out-quart": "cubic-bezier(.165, .84, .44, 1)",
+     "--ease-out-quint": "cubic-bezier(.23, 1, .32, 1)",
+     "--ease-out-expo": "cubic-bezier(.19, 1, .22, 1)",
+     "--ease-out-circ": "cubic-bezier(.075, .82, .165, 1)",
+     "--ease-in-out-quad": "cubic-bezier(.455, .03, .515, .955)",
+     "--ease-in-out-cubic": "cubic-bezier(.645, .045, .355, 1)",
+     "--ease-in-out-quart": "cubic-bezier(.77, 0, .175, 1)",
+     "--ease-in-out-quint": "cubic-bezier(.86, 0, .07, 1)",
+     "--ease-in-out-expo": "cubic-bezier(1, 0, 0, 1)",
+     "--ease-in-out-circ": "cubic-bezier(.785, .135, .15, .86)",
+     "--duration": ".18s",
+     "--transition-duration": ".1s",
+     "--Marquee-duration": "30s",
+     "--blink-duration": "1.2s",
+     "--blink-timing": "step-end"
+    },
+    "keyframes": [
+     "sx-#xrbjn-B",
+     "sx-#vt#tmj-B",
+     "sx-#qog#f-B",
+     "sx-#bsi#l-B",
+     "sx-#fvhf-B",
+     "TZTsQG_mobileMenuIn",
+     "TZTsQG_mobileMenuOut",
+     "TZTsQG_slideFromRight",
+     "TZTsQG_slideFromLeft",
+     "TZTsQG_slideToRight",
+     "TZTsQG_slideToLeft",
+     "TZTsQG_scaleIn",
+     "TZTsQG_scaleOut",
+     "TZTsQG_fadeIn",
+     "TZTsQG_fadeOut",
+     "dYXc#G_fadeIn",
+     "_#QN#Vq_tooltipOpen",
+     "_#QN#Vq_tooltipClose",
+     "WinFxq_contextMenuIn",
+     "WinFxq_contextMenuOut",
+     "Sz_#La_load",
+     "wOrUyW_scaleIn",
+     "wOrUyW_scaleOut",
+     "wOrUyW_fadeIn",
+     "wOrUyW_fadeOut"
+    ],
+    "transitionAll": 1,
+    "viewTransition": 5,
+    "scrollBehaviorSmooth": 38
+   }
+  },
+  {
+   "url": "https://linear.app/features",
+   "finalUrl": "https://linear.app/features",
+   "title": "Features – Linear",
+   "ok": true,
+   "pageHeight": 3640,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 0,
+    "canvases": 1
+   },
+   "declared": {
+    "elementsWithTransitions": 172,
+    "durations": [
+     {
+      "ms": 160,
+      "n": 108
+     },
+     {
+      "ms": 100,
+      "n": 56
+     },
+     {
+      "ms": 200,
+      "n": 8
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 126
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 38
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 8
+     }
+    ],
+    "properties": [
+     [
+      "color",
+      60
+     ],
+     [
+      "filter",
+      22
+     ],
+     [
+      "transform",
+      22
+     ],
+     [
+      "border",
+      14
+     ],
+     [
+      "background-color",
+      14
+     ],
+     [
+      "box-shadow",
+      14
+     ],
+     [
+      "opacity",
+      14
+     ],
+     [
+      "background",
+      9
+     ]
+    ],
+    "transitionAllShare": 1
+   },
+   "load": {
+    "count": 148,
+    "targets": 4,
+    "durations": [
+     {
+      "ms": 700,
+      "n": 124
+     },
+     {
+      "ms": 1000,
+      "n": 24
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 124
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 24
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      132
+     ],
+     [
+      "filter",
+      8
+     ],
+     [
+      "transform",
+      8
+     ]
+    ],
+    "medianMs": 700,
+    "maxDelayMs": 2396,
+    "stagger": {
+     "groups": 13,
+     "medianGapMs": 194,
+     "examples": [
+      {
+       "items": 8,
+       "gapMs": 163,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      },
+      {
+       "items": 8,
+       "gapMs": 130,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      },
+      {
+       "items": 7,
+       "gapMs": 277,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      },
+      {
+       "items": 8,
+       "gapMs": 238,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      },
+      {
+       "items": 8,
+       "gapMs": 172,
+       "duration": 700,
+       "sel": "div.ItQDQG_marqueeItem"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 10,
+    "withMotion": 8,
+    "withTransform": 1,
+    "colorOnly": 5,
+    "jsHover": 1,
+    "jsTransform": 0,
+    "medianInMs": 100,
+    "medianOutMs": 100,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "background-color",
+      6
+     ],
+     [
+      "color",
+      6
+     ],
+     [
+      "background-position-x",
+      2
+     ],
+     [
+      "background-position-y",
+      2
+     ],
+     [
+      "filter",
+      2
+     ],
+     [
+      "border-top-color",
+      2
+     ],
+     [
+      "border-bottom-color",
+      2
+     ],
+     [
+      "border-left-color",
+      2
+     ]
+    ],
+    "in": {
+     "count": 27,
+     "targets": 9,
+     "durations": [
+      {
+       "ms": 160,
+       "n": 14
+      },
+      {
+       "ms": 100,
+       "n": 10
+      },
+      {
+       "ms": 200,
+       "n": 2
+      },
+      {
+       "ms": 180,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 22
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 3
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.58, 1)",
+       "name": "ease-out",
+       "shape": "out",
+       "n": 2
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       6
+      ],
+      [
+       "color",
+       6
+      ],
+      [
+       "background-position-x",
+       2
+      ],
+      [
+       "background-position-y",
+       2
+      ],
+      [
+       "filter",
+       2
+      ],
+      [
+       "border-top-color",
+       2
+      ],
+      [
+       "border-bottom-color",
+       2
+      ],
+      [
+       "border-left-color",
+       2
+      ]
+     ],
+     "medianMs": 160
+    },
+    "out": {
+     "count": 27,
+     "targets": 9,
+     "durations": [
+      {
+       "ms": 160,
+       "n": 14
+      },
+      {
+       "ms": 100,
+       "n": 10
+      },
+      {
+       "ms": 200,
+       "n": 2
+      },
+      {
+       "ms": 180,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+       "name": "easeOutQuad",
+       "shape": "out",
+       "n": 22
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 3
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.58, 1)",
+       "name": "ease-out",
+       "shape": "out",
+       "n": 2
+      }
+     ],
+     "properties": [
+      [
+       "background-color",
+       6
+      ],
+      [
+       "color",
+       6
+      ],
+      [
+       "background-position-x",
+       2
+      ],
+      [
+       "background-position-y",
+       2
+      ],
+      [
+       "filter",
+       2
+      ],
+      [
+       "border-top-color",
+       2
+      ],
+      [
+       "border-bottom-color",
+       2
+      ],
+      [
+       "border-left-color",
+       2
+      ]
+     ],
+     "medianMs": 160
+    }
+   },
+   "scroll": {
+    "count": 28,
+    "targets": 2,
+    "durations": [
+     {
+      "ms": 160,
+      "n": 24
+     },
+     {
+      "ms": 200,
+      "n": 4
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "name": "easeOutQuad",
+      "shape": "out",
+      "n": 24
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 4
+     }
+    ],
+    "properties": [
+     [
+      "filter",
+      4
+     ],
+     [
+      "border-top-color",
+      4
+     ],
+     [
+      "background-color",
+      4
+     ],
+     [
+      "border-bottom-color",
+      4
+     ],
+     [
+      "border-left-color",
+      4
+     ],
+     [
+      "border-right-color",
+      4
+     ],
+     [
+      "color",
+      4
+     ]
+    ],
+    "medianMs": 160,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 0
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 16,
+    "names": [
+     "ItQDQG_marqueeMove"
+    ]
+   },
+   "waapi": {
+    "count": 24,
+    "targets": 3,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 24
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 24
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      8
+     ],
+     [
+      "filter",
+      8
+     ],
+     [
+      "transform",
+      8
+     ]
+    ],
+    "medianMs": 1000
+   },
+   "reducedMotion": {
+    "cssQueries": 92,
+    "loadMotionFull": 190,
+    "loadMotionReduced": 174
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 9
+     },
+     {
+      "easing": "cubic-bezier(0.43, 0.07, 0.59, 0.94)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.45, 1.45, 0.8, 1)",
+      "name": null,
+      "shape": "overshoot",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.66, 0, 0, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.55, 0.085, 0.68, 0.53)",
+      "name": "easeInQuad",
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.55, 0.055, 0.675, 0.19)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.895, 0.03, 0.685, 0.22)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.95, 0.05, 0.795, 0.035)",
+      "name": null,
+      "shape": "in",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {
+     "--duration": ".18s",
+     "--speed-highlightFadeIn": "0s",
+     "--speed-highlightFadeOut": ".15s",
+     "--speed-quickTransition": ".1s",
+     "--speed-regularTransition": ".25s",
+     "--mask-ease": "#0003",
+     "--ease-in-quad": "cubic-bezier(.55, .085, .68, .53)",
+     "--ease-in-cubic": "cubic-bezier(.55, .055, .675, .19)",
+     "--ease-in-quart": "cubic-bezier(.895, .03, .685, .22)",
+     "--ease-in-quint": "cubic-bezier(.755, .05, .855, .06)",
+     "--ease-in-expo": "cubic-bezier(.95, .05, .795, .035)",
+     "--ease-in-circ": "cubic-bezier(.6, .04, .98, .335)",
+     "--ease-out-quad": "cubic-bezier(.25, .46, .45, .94)",
+     "--ease-out-cubic": "cubic-bezier(.215, .61, .355, 1)",
+     "--ease-out-quart": "cubic-bezier(.165, .84, .44, 1)",
+     "--ease-out-quint": "cubic-bezier(.23, 1, .32, 1)",
+     "--ease-out-expo": "cubic-bezier(.19, 1, .22, 1)",
+     "--ease-out-circ": "cubic-bezier(.075, .82, .165, 1)",
+     "--ease-in-out-quad": "cubic-bezier(.455, .03, .515, .955)",
+     "--ease-in-out-cubic": "cubic-bezier(.645, .045, .355, 1)",
+     "--ease-in-out-quart": "cubic-bezier(.77, 0, .175, 1)",
+     "--ease-in-out-quint": "cubic-bezier(.86, 0, .07, 1)",
+     "--ease-in-out-expo": "cubic-bezier(1, 0, 0, 1)",
+     "--ease-in-out-circ": "cubic-bezier(.785, .135, .15, .86)",
+     "--transition-duration": ".1s",
+     "--blink-duration": "1.2s",
+     "--blink-timing": "step-end",
+     "--Marquee-duration": "30s"
+    },
+    "keyframes": [
+     "_#QN#Vq_tooltipOpen",
+     "_#QN#Vq_tooltipClose",
+     "vaulFadeIn",
+     "vaulFadeOut",
+     "vaulSlideFromBottom",
+     "vaulSlideToBottom",
+     "Sz_#La_load",
+     "WinFxq_contextMenuIn",
+     "WinFxq_contextMenuOut",
+     "TZTsQG_mobileMenuIn",
+     "TZTsQG_mobileMenuOut",
+     "TZTsQG_slideFromRight",
+     "TZTsQG_slideFromLeft",
+     "TZTsQG_slideToRight",
+     "TZTsQG_slideToLeft",
+     "TZTsQG_scaleIn",
+     "TZTsQG_scaleOut",
+     "TZTsQG_fadeIn",
+     "TZTsQG_fadeOut",
+     "uDqFfq_dialogIn",
+     "uDqFfq_dialogOut",
+     "dYXc#G_fadeIn",
+     "sx-#xrbjn-B",
+     "sx-#vt#tmj-B",
+     "sx-#qog#f-B"
+    ],
+    "transitionAll": 1,
+    "viewTransition": 5,
+    "scrollBehaviorSmooth": 38
+   }
+  }
+ ]
+}

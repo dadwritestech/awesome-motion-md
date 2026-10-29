@@ -1,0 +1,12 @@
+:root {
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+.button { transition: color 0.1s var(--ease-out-quad), background-color 0.1s var(--ease-out-quad); }
+.link { transition: color 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.menu { transition: opacity 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.dialog { transition: opacity 240ms cubic-bezier(0.16, 1, 0.3, 1), transform 240ms cubic-bezier(0.16, 1, 0.3, 1); }
+.spinner { animation: spin 0.8s linear infinite; }
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}

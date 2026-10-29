@@ -1,0 +1,1305 @@
+{
+ "brand": "framer",
+ "name": "Framer",
+ "measuredAt": "2026-10-29T05:36:11.844Z",
+ "chromium": "156.0.8078.4",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "pages": [
+  {
+   "url": "https://www.framer.com/",
+   "finalUrl": "https://www.framer.com/",
+   "title": "Framer: Free website builder and AI design agent",
+   "ok": true,
+   "pageHeight": 12339,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": true,
+    "motionOne": false,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 9,
+    "canvases": 0
+   },
+   "declared": {
+    "elementsWithTransitions": 1,
+    "durations": [
+     {
+      "ms": 300,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "name": "ease-in-out",
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "all",
+      1
+     ]
+    ],
+    "transitionAllShare": 100
+   },
+   "load": {
+    "count": 74,
+    "targets": 18,
+    "durations": [
+     {
+      "ms": 400,
+      "n": 54
+     },
+     {
+      "ms": 1000,
+      "n": 13
+     },
+     {
+      "ms": 500,
+      "n": 3
+     },
+     {
+      "ms": 650,
+      "n": 1
+     },
+     {
+      "ms": 800,
+      "n": 1
+     },
+     {
+      "ms": 10000,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "linear(…40 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 50
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 9
+     },
+     {
+      "easing": "linear(…100 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 9
+     },
+     {
+      "easing": "linear(…50 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 3
+     },
+     {
+      "easing": "steps",
+      "name": "other",
+      "shape": "other",
+      "n": 1
+     },
+     {
+      "easing": "linear(…2 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 1
+     },
+     {
+      "easing": "linear(…65 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      44
+     ],
+     [
+      "filter",
+      25
+     ],
+     [
+      "transform",
+      5
+     ]
+    ],
+    "medianMs": 400,
+    "maxDelayMs": 1200.0000000000002,
+    "stagger": {
+     "groups": 8,
+     "medianGapMs": 50,
+     "examples": [
+      {
+       "items": 3,
+       "gapMs": 50,
+       "duration": 400,
+       "sel": "span"
+      },
+      {
+       "items": 3,
+       "gapMs": 50,
+       "duration": 400,
+       "sel": "span"
+      },
+      {
+       "items": 3,
+       "gapMs": 50,
+       "duration": 400,
+       "sel": "span"
+      },
+      {
+       "items": 3,
+       "gapMs": 50,
+       "duration": 400,
+       "sel": "span"
+      },
+      {
+       "items": 8,
+       "gapMs": 50,
+       "duration": 400,
+       "sel": "span"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 33,
+     "medianMs": 999,
+     "medianDistancePx": 10
+    }
+   },
+   "hover": {
+    "probed": 9,
+    "withMotion": 5,
+    "withTransform": 0,
+    "colorOnly": 4,
+    "jsHover": 9,
+    "jsTransform": 9,
+    "medianInMs": null,
+    "medianOutMs": null,
+    "medianOutMinusInMs": null,
+    "properties": [
+     [
+      "opacity",
+      14
+     ],
+     [
+      "filter",
+      8
+     ]
+    ],
+    "in": {
+     "count": 22,
+     "targets": 14,
+     "durations": [
+      {
+       "ms": 600,
+       "n": 17
+      },
+      {
+       "ms": 400,
+       "n": 4
+      },
+      {
+       "ms": 300,
+       "n": 1
+      }
+     ],
+     "easings": [
+      {
+       "easing": "linear(…60 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 17
+      },
+      {
+       "easing": "linear(…40 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 4
+      },
+      {
+       "easing": "linear(…30 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       14
+      ],
+      [
+       "filter",
+       8
+      ]
+     ],
+     "medianMs": 600
+    },
+    "out": {
+     "count": 30,
+     "targets": 20,
+     "durations": [
+      {
+       "ms": 600,
+       "n": 17
+      },
+      {
+       "ms": 1000,
+       "n": 8
+      },
+      {
+       "ms": 400,
+       "n": 3
+      },
+      {
+       "ms": 300,
+       "n": 2
+      }
+     ],
+     "easings": [
+      {
+       "easing": "linear(…60 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 17
+      },
+      {
+       "easing": "linear(…100 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 8
+      },
+      {
+       "easing": "linear(…40 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 3
+      },
+      {
+       "easing": "linear(…30 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 1
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.35, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       22
+      ],
+      [
+       "filter",
+       8
+      ]
+     ],
+     "medianMs": 600
+    }
+   },
+   "scroll": {
+    "count": 13,
+    "targets": 9,
+    "durations": [
+     {
+      "ms": 1000,
+      "n": 7
+     },
+     {
+      "ms": 400,
+      "n": 6
+     }
+    ],
+    "easings": [
+     {
+      "easing": "linear(…100 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 7
+     },
+     {
+      "easing": "linear(…40 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 6
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      11
+     ],
+     [
+      "filter",
+      2
+     ]
+    ],
+    "medianMs": 1000,
+    "reveal": {
+     "withTransform": 0,
+     "opacityOnly": 11
+    },
+    "stagger": {
+     "groups": 1,
+     "medianGapMs": 100,
+     "examples": [
+      {
+       "items": 5,
+       "gapMs": 100,
+       "duration": 1000,
+       "sel": "div.framer-1ghbx3c"
+      }
+     ]
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 16,
+    "names": [
+     "ghostFlow"
+    ]
+   },
+   "waapi": {
+    "count": 141,
+    "targets": 41,
+    "durations": [
+     {
+      "ms": 400,
+      "n": 69
+     },
+     {
+      "ms": 600,
+      "n": 34
+     },
+     {
+      "ms": 1000,
+      "n": 28
+     },
+     {
+      "ms": 300,
+      "n": 3
+     },
+     {
+      "ms": 500,
+      "n": 3
+     },
+     {
+      "ms": 650,
+      "n": 1
+     },
+     {
+      "ms": 800,
+      "n": 1
+     },
+     {
+      "ms": 10000,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "linear(…40 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 65
+     },
+     {
+      "easing": "linear(…60 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 34
+     },
+     {
+      "easing": "linear(…100 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 24
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 9
+     },
+     {
+      "easing": "linear(…50 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 3
+     },
+     {
+      "easing": "linear(…30 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 2
+     },
+     {
+      "easing": "steps",
+      "name": "other",
+      "shape": "other",
+      "n": 1
+     },
+     {
+      "easing": "linear(…2 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      93
+     ],
+     [
+      "filter",
+      43
+     ],
+     [
+      "transform",
+      5
+     ]
+    ],
+    "medianMs": 400
+   },
+   "reducedMotion": {
+    "cssQueries": 0,
+    "loadMotionFull": 3466,
+    "loadMotionReduced": 2199
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.44, 0, 0.56, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 1
+     }
+    ],
+    "linearEasings": 0,
+    "tokenVars": {},
+    "keyframes": [
+     "__framer-blink-input",
+     "shimmer-Raqqqhlrael#dp",
+     "__framer-editorbar-spinner-spin"
+    ],
+    "transitionAll": 1,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  },
+  {
+   "url": "https://www.framer.com/motion/",
+   "finalUrl": "https://motion.dev/",
+   "title": "Motion (prev Framer Motion): JavaScript & React animation library",
+   "ok": true,
+   "pageHeight": 13759,
+   "libs": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "framerMotion": false,
+    "motionOne": true,
+    "lottie": false,
+    "rive": false,
+    "three": false,
+    "spline": false,
+    "videos": 15,
+    "canvases": 1
+   },
+   "declared": {
+    "elementsWithTransitions": 211,
+    "durations": [
+     {
+      "ms": 200,
+      "n": 105
+     },
+     {
+      "ms": 150,
+      "n": 58
+     },
+     {
+      "ms": 400,
+      "n": 14
+     },
+     {
+      "ms": 160,
+      "n": 11
+     },
+     {
+      "ms": 180,
+      "n": 9
+     },
+     {
+      "ms": 140,
+      "n": 8
+     },
+     {
+      "ms": 300,
+      "n": 5
+     },
+     {
+      "ms": 500,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 166
+     },
+     {
+      "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 21
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 13
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0, 0, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 9
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 2
+     }
+    ],
+    "properties": [
+     [
+      "color",
+      83
+     ],
+     [
+      "opacity",
+      77
+     ],
+     [
+      "transform",
+      22
+     ],
+     [
+      "border-color",
+      9
+     ],
+     [
+      "clip-path",
+      8
+     ],
+     [
+      "background",
+      7
+     ],
+     [
+      "background-color",
+      3
+     ],
+     [
+      "scale",
+      2
+     ]
+    ],
+    "transitionAllShare": 0
+   },
+   "load": {
+    "count": 75,
+    "targets": 7,
+    "durations": [
+     {
+      "ms": 200,
+      "n": 68
+     },
+     {
+      "ms": 180,
+      "n": 4
+     },
+     {
+      "ms": 150,
+      "n": 1
+     },
+     {
+      "ms": 400,
+      "n": 1
+     },
+     {
+      "ms": 500,
+      "n": 1
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 74
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 1
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      43
+     ],
+     [
+      "color",
+      31
+     ],
+     [
+      "background-color",
+      1
+     ]
+    ],
+    "medianMs": 200,
+    "maxDelayMs": 0,
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    }
+   },
+   "hover": {
+    "probed": 22,
+    "withMotion": 17,
+    "withTransform": 4,
+    "colorOnly": 10,
+    "jsHover": 5,
+    "jsTransform": 4,
+    "medianInMs": 150,
+    "medianOutMs": 150,
+    "medianOutMinusInMs": 0,
+    "properties": [
+     [
+      "opacity",
+      16
+     ],
+     [
+      "transform",
+      6
+     ],
+     [
+      "color",
+      5
+     ],
+     [
+      "clip-path",
+      3
+     ],
+     [
+      "border-top-color",
+      2
+     ],
+     [
+      "border-bottom-color",
+      2
+     ],
+     [
+      "border-left-color",
+      2
+     ],
+     [
+      "border-right-color",
+      2
+     ]
+    ],
+    "in": {
+     "count": 40,
+     "targets": 23,
+     "durations": [
+      {
+       "ms": 150,
+       "n": 9
+      },
+      {
+       "ms": 160,
+       "n": 6
+      },
+      {
+       "ms": 180,
+       "n": 6
+      },
+      {
+       "ms": 140,
+       "n": 4
+      },
+      {
+       "ms": 300,
+       "n": 3
+      },
+      {
+       "ms": 400,
+       "n": 3
+      },
+      {
+       "ms": 200,
+       "n": 2
+      },
+      {
+       "ms": 240,
+       "n": 2
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 17
+      },
+      {
+       "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 0.58, 1)",
+       "name": "ease-out",
+       "shape": "out",
+       "n": 5
+      },
+      {
+       "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+       "name": "expoOut (0.16,1,0.3,1)",
+       "shape": "out",
+       "n": 4
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0, 0, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 3
+      },
+      {
+       "easing": "cubic-bezier(0.338, 0.015, 0.395, 0.959)",
+       "name": null,
+       "shape": "in-out",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0.42, 0, 1, 1)",
+       "name": "ease-in",
+       "shape": "in",
+       "n": 2
+      },
+      {
+       "easing": "cubic-bezier(0, 0, 1, 1)",
+       "name": "linear",
+       "shape": "linear",
+       "n": 1
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       16
+      ],
+      [
+       "transform",
+       6
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "clip-path",
+       3
+      ],
+      [
+       "border-top-color",
+       2
+      ],
+      [
+       "border-bottom-color",
+       2
+      ],
+      [
+       "border-left-color",
+       2
+      ],
+      [
+       "border-right-color",
+       2
+      ]
+     ],
+     "medianMs": 160
+    },
+    "out": {
+     "count": 67,
+     "targets": 24,
+     "durations": [
+      {
+       "ms": 140,
+       "n": 12
+      },
+      {
+       "ms": 150,
+       "n": 9
+      },
+      {
+       "ms": 180,
+       "n": 6
+      },
+      {
+       "ms": 600,
+       "n": 6
+      },
+      {
+       "ms": 1750,
+       "n": 6
+      },
+      {
+       "ms": 400,
+       "n": 5
+      },
+      {
+       "ms": 1491,
+       "n": 4
+      },
+      {
+       "ms": 300,
+       "n": 3
+      }
+     ],
+     "easings": [
+      {
+       "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+       "name": "ease",
+       "shape": "in-out",
+       "n": 17
+      },
+      {
+       "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+       "name": "expoOut (0.16,1,0.3,1)",
+       "shape": "out",
+       "n": 12
+      },
+      {
+       "easing": "linear(…60 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 7
+      },
+      {
+       "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+       "name": null,
+       "shape": "out",
+       "n": 6
+      },
+      {
+       "easing": "linear(…175 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 6
+      },
+      {
+       "easing": "cubic-bezier(0.25, 0, 0, 1)",
+       "name": null,
+       "shape": "in-out",
+       "n": 5
+      },
+      {
+       "easing": "linear(…151 stops)",
+       "name": "linear()",
+       "shape": "spring/linear()",
+       "n": 4
+      },
+      {
+       "easing": "cubic-bezier(0.338, 0.015, 0.395, 0.959)",
+       "name": null,
+       "shape": "in-out",
+       "n": 2
+      }
+     ],
+     "properties": [
+      [
+       "opacity",
+       24
+      ],
+      [
+       "transform",
+       15
+      ],
+      [
+       "clip-path",
+       5
+      ],
+      [
+       "color",
+       5
+      ],
+      [
+       "border-top-color",
+       4
+      ],
+      [
+       "border-bottom-color",
+       4
+      ],
+      [
+       "border-left-color",
+       4
+      ],
+      [
+       "border-right-color",
+       4
+      ]
+     ],
+     "medianMs": 200
+    }
+   },
+   "scroll": {
+    "count": 34,
+    "targets": 8,
+    "durations": [
+     {
+      "ms": 200,
+      "n": 12
+     },
+     {
+      "ms": 140,
+      "n": 8
+     },
+     {
+      "ms": 180,
+      "n": 8
+     },
+     {
+      "ms": 160,
+      "n": 2
+     },
+     {
+      "ms": 300,
+      "n": 2
+     },
+     {
+      "ms": 400,
+      "n": 2
+     }
+    ],
+    "easings": [
+     {
+      "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "name": "ease",
+      "shape": "in-out",
+      "n": 16
+     },
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 8
+     },
+     {
+      "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 8
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0, 0, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      8
+     ],
+     [
+      "border-bottom-color",
+      6
+     ],
+     [
+      "color",
+      4
+     ],
+     [
+      "border-top-color",
+      4
+     ],
+     [
+      "border-left-color",
+      4
+     ],
+     [
+      "border-right-color",
+      4
+     ],
+     [
+      "clip-path",
+      2
+     ],
+     [
+      "transform",
+      2
+     ]
+    ],
+    "medianMs": 180,
+    "reveal": {
+     "withTransform": 2,
+     "opacityOnly": 8
+    },
+    "stagger": {
+     "groups": 0,
+     "medianGapMs": null,
+     "examples": []
+    },
+    "jsReveals": {
+     "elements": 0,
+     "medianMs": null,
+     "medianDistancePx": null
+    },
+    "scrollDrivenAnimations": 0,
+    "cssAnimationTimeline": 0
+   },
+   "wheel": {
+    "finalPx": 400,
+    "settleMs": 0,
+    "smooth": false
+   },
+   "ambient": {
+    "infiniteAnimations": 0,
+    "names": []
+   },
+   "waapi": {
+    "count": 36,
+    "targets": 8,
+    "durations": [
+     {
+      "ms": 600,
+      "n": 6
+     },
+     {
+      "ms": 1750,
+      "n": 6
+     },
+     {
+      "ms": 160,
+      "n": 4
+     },
+     {
+      "ms": 300,
+      "n": 4
+     },
+     {
+      "ms": 1491,
+      "n": 4
+     },
+     {
+      "ms": 240,
+      "n": 2
+     },
+     {
+      "ms": 500,
+      "n": 2
+     },
+     {
+      "ms": 1941,
+      "n": 2
+     }
+    ],
+    "easings": [
+     {
+      "easing": "linear(…60 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 7
+     },
+     {
+      "easing": "linear(…175 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 6
+     },
+     {
+      "easing": "cubic-bezier(0.338, 0.015, 0.395, 0.959)",
+      "name": null,
+      "shape": "in-out",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 0.58, 1)",
+      "name": "ease-out",
+      "shape": "out",
+      "n": 4
+     },
+     {
+      "easing": "linear(…151 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 4
+     },
+     {
+      "easing": "cubic-bezier(0, 0, 1, 1)",
+      "name": "linear",
+      "shape": "linear",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.42, 0, 1, 1)",
+      "name": "ease-in",
+      "shape": "in",
+      "n": 2
+     },
+     {
+      "easing": "linear(…196 stops)",
+      "name": "linear()",
+      "shape": "spring/linear()",
+      "n": 2
+     }
+    ],
+    "properties": [
+     [
+      "opacity",
+      19
+     ],
+     [
+      "transform",
+      17
+     ]
+    ],
+    "medianMs": 600
+   },
+   "reducedMotion": {
+    "cssQueries": 21,
+    "loadMotionFull": 230,
+    "loadMotionReduced": 222
+   },
+   "css": {
+    "cubicBeziers": [
+     {
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "name": "expoOut (0.16,1,0.3,1)",
+      "shape": "out",
+      "n": 19
+     },
+     {
+      "easing": "cubic-bezier(0.25, 0, 0, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 16
+     },
+     {
+      "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 9
+     },
+     {
+      "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 2
+     },
+     {
+      "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "name": null,
+      "shape": "out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.6, 0, 0.2, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.4, 1)",
+      "name": null,
+      "shape": "in-out",
+      "n": 1
+     },
+     {
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "name": "material-standard",
+      "shape": "in-out",
+      "n": 1
+     }
+    ],
+    "linearEasings": 1,
+    "tokenVars": {
+     "--cl-motion": "var(--lab-yellow)",
+     "--cl-motion-studio": "var(--lab-watermelon, var(--tier-f))",
+     "--fresh-motion-plus-size": "42px",
+     "--motion-plus-accent": "oklch(.76 .15 155)"
+    },
+    "keyframes": [
+     "mag-tier-letter-flash",
+     "dgd-newsletter-focus",
+     "made-skeleton-pulse",
+     "home-diag-translate",
+     "home-diag-bar-fill",
+     "home-diag-row",
+     "home-showcase-pulse",
+     "spin",
+     "fade-in",
+     "slide-up",
+     "docs-console-sweep"
+    ],
+    "transitionAll": 0,
+    "viewTransition": 0,
+    "scrollBehaviorSmooth": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbit</title>
+<style>
+:root {
+  --motion-instant: 100ms;
+  --motion-quick: 160ms;
+  --motion-regular: 250ms;
+  --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --bg: #0b0c0f;
+  --surface: #131519;
+  --surface-hover: #181b20;
+  --border: #23262d;
+  --text: #e8e9ec;
+  --muted: #8a8f9a;
+  --accent: #5e6ad2;
+  --accent-hover: #6f7be0;
+  --accent-press: #4f5bc0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); min-height: 100vh; font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+
+nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 4px; height: 52px; padding: 0 24px; background: rgba(11,12,15,.9); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+.logo { font-weight: 700; font-size: 16px; letter-spacing: -.01em; margin-right: 20px; display: flex; align-items: center; gap: 8px; }
+.logo::before { content: ""; width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--accent); }
+nav a { color: var(--muted); text-decoration: none; padding: 6px 10px; border-radius: 6px; transition: color var(--motion-instant) var(--ease-out), background-color var(--motion-instant) var(--ease-out); }
+nav a:hover { color: var(--text); background-color: #1a1d23; }
+nav a.active { color: var(--text); }
+nav a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.spacer { flex: 1; }
+
+button { font: inherit; cursor: pointer; border: 0; border-radius: 6px; padding: 7px 14px; color: #fff; background-color: var(--accent); font-weight: 500; transition: background-color var(--motion-instant) var(--ease-out), color var(--motion-instant) var(--ease-out); }
+button:hover { background-color: var(--accent-hover); }
+button:active { background-color: var(--accent-press); }
+button.ghost { background-color: transparent; color: var(--muted); box-shadow: inset 0 0 0 1px var(--border); }
+button.ghost:hover { background-color: #1a1d23; color: var(--text); }
+button.ghost:active { background-color: #20242b; }
+
+main { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+h1 { margin: 0; font-size: 26px; letter-spacing: -.02em; }
+.sub { margin: 4px 0 24px; color: var(--muted); }
+
+#list { display: flex; flex-direction: column; gap: 8px; }
+.card { display: flex; align-items: center; gap: 14px; padding: 12px 16px; background-color: var(--surface); border: 1px solid var(--border); border-radius: 10px; cursor: default;
+  transition: background-color var(--motion-quick) var(--ease-out), border-color var(--motion-quick) var(--ease-out), filter var(--motion-quick) var(--ease-out);
+  animation: fade-in var(--motion-regular) var(--ease-out) both; }
+.card:hover { background-color: var(--surface-hover); border-color: #2f333c; filter: brightness(1.1); }
+.card .id { color: var(--muted); font-variant-numeric: tabular-nums; width: 60px; flex: none; font-size: 13px; }
+.card .title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pill { font-size: 12px; padding: 2px 10px; border-radius: 999px; font-weight: 500; flex: none; }
+.pill.todo { color: #b4b9c4; background: #22252c; }
+.pill.progress { color: #f2c75c; background: rgba(242,199,92,.12); }
+.pill.review { color: #a78bfa; background: rgba(167,139,250,.14); }
+.pill.done { color: #5fd08a; background: rgba(95,208,138,.12); }
+.avatar { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 600; color: #fff; flex: none; }
+
+#dialog-backdrop { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: rgba(0,0,0,.55); animation: fade-in var(--motion-quick) var(--ease-out) both; }
+#dialog-backdrop[hidden] { display: none; }
+#dialog-backdrop.closing { animation: fade-out var(--motion-quick) var(--ease-out) both; }
+#dialog { width: min(440px, calc(100vw - 32px)); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; box-shadow: 0 24px 60px rgba(0,0,0,.5); transform-origin: center; animation: scale-in var(--motion-regular) var(--ease-out) both; }
+#dialog-backdrop.closing #dialog { animation: scale-out var(--motion-quick) var(--ease-out) both; }
+#dialog h2 { margin: 0 0 14px; font-size: 16px; }
+#title-input { width: 100%; font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 9px 12px; transition: border-color var(--motion-instant) var(--ease-out); }
+#title-input:hover { border-color: #353a45; }
+#title-input:focus { outline: none; border-color: var(--accent); }
+.actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px; }
+
+#toast { position: fixed; right: 24px; bottom: 24px; z-index: 60; background: #1c1f26; color: var(--text); border: 1px solid #2f333c; padding: 10px 16px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.4); opacity: 0; visibility: hidden; transform: scale(.96); transform-origin: bottom right; pointer-events: none;
+  transition: opacity var(--motion-quick) var(--ease-out), transform var(--motion-quick) var(--ease-out), visibility 0s linear var(--motion-quick); }
+#toast.show { opacity: 1; visibility: visible; transform: scale(1); transition-delay: 0s; }
+
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fade-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes scale-in { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
+@keyframes scale-out { from { opacity: 1; transform: scale(1); } to { opacity: 0; transform: scale(.96); } }
+
+@media (prefers-reduced-motion: reduce) {
+  #dialog, #dialog-backdrop.closing #dialog { animation-name: fade-in; }
+  #dialog-backdrop.closing #dialog { animation-name: fade-out; }
+  #toast { transform: none; }
+  .card { filter: none; }
+  .card:hover { filter: none; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <span class="logo">Orbit</span>
+  <a href="#issues" class="active">Issues</a>
+  <a href="#projects">Projects</a>
+  <a href="#views">Views</a>
+  <span class="spacer"></span>
+  <button id="new-issue" type="button">New issue</button>
+</nav>
+
+<main>
+  <h1>Issues</h1>
+  <p class="sub">Everything your team is working on, in one place.</p>
+  <div id="list"></div>
+</main>
+
+<div id="dialog-backdrop" hidden>
+  <div id="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+    <h2 id="dialog-title">New issue</h2>
+    <input id="title-input" type="text" placeholder="Issue title" autocomplete="off" aria-label="Issue title">
+    <div class="actions">
+      <button id="cancel" type="button" class="ghost">Cancel</button>
+      <button id="create" type="button">Create</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite">Issue created</div>
+
+<script>
+(function () {
+  var STATUS = { todo: "Todo", progress: "In Progress", review: "In Review", done: "Done" };
+  var COLORS = ["#5e6ad2", "#d2675e", "#3f9d7a", "#b07a2e", "#7a5ed2", "#2e8fb0"];
+  var issues = [
+    ["ORB-12", "Fix flaky sync on reconnect", "progress", "A"],
+    ["ORB-11", "Design empty states for Projects", "review", "M"],
+    ["ORB-10", "Add keyboard shortcuts to the issue list", "todo", "J"],
+    ["ORB-9", "Migrate notifications to the new queue", "done", "S"],
+    ["ORB-8", "Improve search ranking for archived issues", "progress", "R"],
+    ["ORB-7", "Write docs for the public API", "todo", "K"]
+  ];
+  var nextId = 13;
+
+  var list = document.getElementById("list");
+  var backdrop = document.getElementById("dialog-backdrop");
+  var input = document.getElementById("title-input");
+  var toast = document.getElementById("toast");
+  var openBtn = document.getElementById("new-issue");
+  var toastTimer, hideTimer, closeTimer;
+
+  function makeCard(id, title, status, initial) {
+    var el = document.createElement("div");
+    el.className = "card";
+    var idEl = document.createElement("span"); idEl.className = "id"; idEl.textContent = id;
+    var t = document.createElement("span"); t.className = "title"; t.textContent = title;
+    var p = document.createElement("span"); p.className = "pill " + status; p.textContent = STATUS[status];
+    var a = document.createElement("span"); a.className = "avatar"; a.textContent = initial;
+    a.style.background = COLORS[(initial.charCodeAt(0)) % COLORS.length];
+    el.append(idEl, t, p, a);
+    return el;
+  }
+
+  issues.forEach(function (i) { list.appendChild(makeCard(i[0], i[1], i[2], i[3])); });
+
+  function openDialog() {
+    clearTimeout(closeTimer);
+    backdrop.classList.remove("closing");
+    backdrop.hidden = false;
+    input.value = "";
+    input.focus();
+  }
+  function closeDialog() {
+    if (backdrop.hidden || backdrop.classList.contains("closing")) return;
+    backdrop.classList.add("closing");
+    closeTimer = setTimeout(function () {
+      backdrop.hidden = true;
+      backdrop.classList.remove("closing");
+    }, 160);
+    openBtn.focus();
+  }
+  function showToast() {
+    clearTimeout(toastTimer);
+    toast.classList.add("show");
+    toastTimer = setTimeout(function () { toast.classList.remove("show"); }, 2340);
+  }
+  function create() {
+    var title = input.value.trim() || "Untitled issue";
+    var card = makeCard("ORB-" + nextId++, title, "todo", "V");
+    list.insertBefore(card, list.firstChild);
+    closeDialog();
+    showToast();
+  }
+
+  openBtn.addEventListener("click", openDialog);
+  document.getElementById("cancel").addEventListener("click", closeDialog);
+  document.getElementById("create").addEventListener("click", create);
+  backdrop.addEventListener("mousedown", function (e) { if (e.target === backdrop) closeDialog(); });
+  input.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); create(); } });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !backdrop.hidden) closeDialog();
+    if (e.key === "Tab" && !backdrop.hidden) {
+      var f = [input, document.getElementById("cancel"), document.getElementById("create")];
+      var i = f.indexOf(document.activeElement);
+      if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+      else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
+    }
+  });
+})();
+</script>
+</body>
+</html>

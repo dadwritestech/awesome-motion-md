@@ -1,0 +1,14 @@
+stripe https://stripe.com/ ... events=534 waapi=283 anims=777 styleMut=1968
+stripe https://stripe.com/payments ... events=402 waapi=229 anims=631 styleMut=259
+apple https://www.apple.com/ ... events=163 waapi=0 anims=166 styleMut=490
+apple https://www.apple.com/iphone/ ... events=242 waapi=0 anims=244 styleMut=6347
+vercel https://vercel.com/ ... events=20 waapi=0 anims=20 styleMut=7
+vercel https://vercel.com/ai ... events=133 waapi=0 anims=133 styleMut=3
+framer https://www.framer.com/ ... events=16 waapi=141 anims=156 styleMut=20002
+framer https://www.framer.com/motion/ ... events=182 waapi=36 anims=217 styleMut=8265
+arc https://arc.net/ ... events=92 waapi=0 anims=92 styleMut=47
+arc https://www.diabrowser.com/ ... events=43 waapi=46 anims=89 styleMut=7217
+raycast https://www.raycast.com/ ... events=763 waapi=0 anims=756 styleMut=533
+raycast https://www.raycast.com/pro ... events=46 waapi=1 anims=47 styleMut=40
+airbnb https://www.airbnb.com/ ... events=22 waapi=8 anims=28 styleMut=3419
+airbnb https://www.airbnb.com/s/experiences ... events=896 waapi=0 anims=894 styleMut=1584

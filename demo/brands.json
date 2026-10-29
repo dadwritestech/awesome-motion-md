@@ -1,0 +1,4 @@
+[
+  { "id": "without", "name": "Demo without MOTION.md", "urls": ["without/index.html"] },
+  { "id": "with", "name": "Demo with motion/linear/MOTION.md", "urls": ["with/index.html"] }
+]
