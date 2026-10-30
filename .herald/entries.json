@@ -1,0 +1,12 @@
+{
+ "repo": "awesome-motion-md",
+ "link": "https://github.com/dadwritestech/awesome-motion-md",
+ "releases": true,
+ "entries": [
+  {
+   "glob": "motion/*",
+   "kind": "motion",
+   "text": "New MOTION.md: {Name}. Its easing curves, durations and springs, measured from the live site, as one drop-in file for your coding agent."
+  }
+ ]
+}
