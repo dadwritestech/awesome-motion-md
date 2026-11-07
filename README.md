@@ -165,4 +165,8 @@ site, measured on one date. They are not affiliated with or endorsed by Linear,
 Stripe, Apple, Vercel, Framer, The Browser Company, Raycast or Airbnb. All trademarks
 belong to their owners.
 
-MIT licence.
+## License
+
+- **MOTION.md files and data** (`motion/`, `data/`, `FORMAT.md`): [CC BY 4.0](LICENSE-CONTENT).
+- **Extractor, linter, skill and demo:** [MIT](LICENSE).
+- Brand names belong to their owners; the files describe publicly observable motion, with no affiliation.
